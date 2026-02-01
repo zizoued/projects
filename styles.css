@@ -77,6 +77,25 @@ body {
   display: none !important;
 }
 
+.success-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.success-content.hidden {
+  display: none !important;
+}
+
+.success-photo {
+  max-width: 100%;
+  width: min(420px, 90vw);
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(92, 42, 74, 0.2);
+}
+
 .success-message {
   font-size: clamp(1.25rem, 3vw, 2rem);
   color: #5c2a4a;

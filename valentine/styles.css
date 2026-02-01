@@ -90,7 +90,7 @@ body {
 
 .success-photo {
   max-width: 100%;
-  width: min(420px, 90vw);
+  width: min(210px, 45vw);
   height: auto;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(92, 42, 74, 0.2);

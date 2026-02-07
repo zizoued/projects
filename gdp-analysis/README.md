@@ -64,11 +64,20 @@ This will:
 
 ## Output
 
-The analysis generates:
+The analysis generates the following files in the `output/` directory:
+
+**Visualizations:**
 - `gdp_growth_comparison.png` - Line chart comparing GDP growth across economies
 - `gdp_growth_heatmap.png` - Heatmap showing growth patterns by year
+- `average_growth_comparison.png` - Bar chart ranking economies by average growth
+- `growth_volatility_scatter.png` - Scatter plot showing growth vs volatility trade-off
+
+**Data Files:**
 - `gdp_statistics.csv` - Summary statistics for each economy
-- Console output with key insights
+- `gdp_growth_data.csv` - Year-by-year GDP growth data for all economies
+
+**Console Output:**
+- Comprehensive analysis report with key insights
 
 ## Key Economic Insights
 

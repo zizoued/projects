@@ -25,9 +25,11 @@ function isRestaurantTried(restaurantId) {
 // Removed restaurants - fetched from Google Sheet
 let removedRestaurants = [];
 
-// Google Sheet URL (CSV export) - replace SHEET_ID with your actual sheet ID
-// Format: https://docs.google.com/spreadsheets/d/SHEET_ID/gviz/tq?tqx=out:csv
-const GOOGLE_SHEET_CSV_URL = localStorage.getItem('removedSheetUrl') || '';
+// Google Sheet CSV URL for reading removed restaurants
+const GOOGLE_SHEET_CSV_URL = 'https://docs.google.com/spreadsheets/d/17gKWwDk2wJ3eOkjt6N8Ttsbz3-ejpjgSKRddOLFKbcc/gviz/tq?tqx=out:csv';
+
+// Google Apps Script URL for one-click removal
+const REMOVE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxefTM5E0ugcXdV1djLy4WETWav7Xnj4o6b2B7Ot6sE3V_agLsp1cfKGILt7BPH2s07hg/exec';
 
 async function fetchRemovedRestaurants() {
     // First check the local JS file
@@ -35,20 +37,18 @@ async function fetchRemovedRestaurants() {
         removedRestaurants = [...REMOVED_RESTAURANTS];
     }
     
-    // Then try to fetch from Google Sheet if URL is set
-    if (GOOGLE_SHEET_CSV_URL) {
-        try {
-            const response = await fetch(GOOGLE_SHEET_CSV_URL);
-            if (response.ok) {
-                const csv = await response.text();
-                const ids = csv.split('\n')
-                    .map(line => line.trim().replace(/"/g, ''))
-                    .filter(id => id && id !== 'restaurant_id'); // Skip header
-                removedRestaurants = [...new Set([...removedRestaurants, ...ids])];
-            }
-        } catch (e) {
-            console.log('Could not fetch Google Sheet:', e);
+    // Fetch from Google Sheet
+    try {
+        const response = await fetch(GOOGLE_SHEET_CSV_URL);
+        if (response.ok) {
+            const csv = await response.text();
+            const ids = csv.split('\n')
+                .map(line => line.trim().replace(/"/g, '').split(',')[0])
+                .filter(id => id && id !== 'restaurant_id');
+            removedRestaurants = [...new Set([...removedRestaurants, ...ids])];
         }
+    } catch (e) {
+        console.log('Could not fetch Google Sheet:', e);
     }
 }
 
@@ -59,45 +59,15 @@ function isRestaurantRemoved(restaurantId) {
 function removeRestaurant(restaurantId, restaurantName, event) {
     event.stopPropagation();
     
-    const sheetUrl = GOOGLE_SHEET_CSV_URL || localStorage.getItem('removedSheetUrl');
-    
-    if (!sheetUrl) {
-        // First time - prompt for setup
-        const msg = `To enable shared removal, set up a Google Sheet:\n\n` +
-            `1. Create a new Google Sheet\n` +
-            `2. Add "restaurant_id" in cell A1\n` +
-            `3. File → Share → "Anyone with link can edit"\n` +
-            `4. Copy the Sheet ID from the URL\n\n` +
-            `Sheet URL format:\nhttps://docs.google.com/spreadsheets/d/SHEET_ID/edit\n\n` +
-            `Enter your SHEET_ID:`;
+    if (confirm(`Remove "${restaurantName}" from the list for everyone?`)) {
+        // Open the Apps Script URL which adds to the sheet
+        const url = `${REMOVE_SCRIPT_URL}?id=${encodeURIComponent(restaurantId)}&name=${encodeURIComponent(restaurantName)}`;
+        window.open(url, '_blank');
         
-        const sheetId = prompt(msg);
-        if (sheetId) {
-            const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
-            localStorage.setItem('removedSheetUrl', csvUrl);
-            localStorage.setItem('removedSheetEditUrl', `https://docs.google.com/spreadsheets/d/${sheetId}/edit`);
-            alert('Sheet connected! Click the remove button again to add restaurants.');
-            return;
-        }
-        return;
+        // Optimistically hide the card
+        removedRestaurants.push(restaurantId);
+        filterRestaurants();
     }
-    
-    const editUrl = localStorage.getItem('removedSheetEditUrl') || sheetUrl.replace('/gviz/tq?tqx=out:csv', '/edit');
-    
-    // Copy the ID and open the sheet
-    navigator.clipboard.writeText(restaurantId).then(() => {
-        const open = confirm(
-            `"${restaurantName}" ID copied!\n\n` +
-            `ID: ${restaurantId}\n\n` +
-            `Click OK to open the Google Sheet and paste the ID in a new row.`
-        );
-        if (open) {
-            window.open(editUrl, '_blank');
-        }
-    }).catch(() => {
-        prompt(`Copy this ID and add it to your Google Sheet:`, restaurantId);
-        window.open(editUrl, '_blank');
-    });
 }
 
 function toggleTriedStatus(restaurantId) {

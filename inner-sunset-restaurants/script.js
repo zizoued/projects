@@ -22,16 +22,81 @@ function isRestaurantTried(restaurantId) {
     return getTriedRestaurants().includes(restaurantId);
 }
 
-function isRestaurantRemoved(restaurantId) {
-    return typeof REMOVED_RESTAURANTS !== 'undefined' && REMOVED_RESTAURANTS.includes(restaurantId);
+// Removed restaurants - fetched from Google Sheet
+let removedRestaurants = [];
+
+// Google Sheet URL (CSV export) - replace SHEET_ID with your actual sheet ID
+// Format: https://docs.google.com/spreadsheets/d/SHEET_ID/gviz/tq?tqx=out:csv
+const GOOGLE_SHEET_CSV_URL = localStorage.getItem('removedSheetUrl') || '';
+
+async function fetchRemovedRestaurants() {
+    // First check the local JS file
+    if (typeof REMOVED_RESTAURANTS !== 'undefined' && REMOVED_RESTAURANTS.length > 0) {
+        removedRestaurants = [...REMOVED_RESTAURANTS];
+    }
+    
+    // Then try to fetch from Google Sheet if URL is set
+    if (GOOGLE_SHEET_CSV_URL) {
+        try {
+            const response = await fetch(GOOGLE_SHEET_CSV_URL);
+            if (response.ok) {
+                const csv = await response.text();
+                const ids = csv.split('\n')
+                    .map(line => line.trim().replace(/"/g, ''))
+                    .filter(id => id && id !== 'restaurant_id'); // Skip header
+                removedRestaurants = [...new Set([...removedRestaurants, ...ids])];
+            }
+        } catch (e) {
+            console.log('Could not fetch Google Sheet:', e);
+        }
+    }
 }
 
-function copyRemoveId(restaurantId, event) {
+function isRestaurantRemoved(restaurantId) {
+    return removedRestaurants.includes(restaurantId);
+}
+
+function removeRestaurant(restaurantId, restaurantName, event) {
     event.stopPropagation();
+    
+    const sheetUrl = GOOGLE_SHEET_CSV_URL || localStorage.getItem('removedSheetUrl');
+    
+    if (!sheetUrl) {
+        // First time - prompt for setup
+        const msg = `To enable shared removal, set up a Google Sheet:\n\n` +
+            `1. Create a new Google Sheet\n` +
+            `2. Add "restaurant_id" in cell A1\n` +
+            `3. File → Share → "Anyone with link can edit"\n` +
+            `4. Copy the Sheet ID from the URL\n\n` +
+            `Sheet URL format:\nhttps://docs.google.com/spreadsheets/d/SHEET_ID/edit\n\n` +
+            `Enter your SHEET_ID:`;
+        
+        const sheetId = prompt(msg);
+        if (sheetId) {
+            const csvUrl = `https://docs.google.com/spreadsheets/d/${sheetId}/gviz/tq?tqx=out:csv`;
+            localStorage.setItem('removedSheetUrl', csvUrl);
+            localStorage.setItem('removedSheetEditUrl', `https://docs.google.com/spreadsheets/d/${sheetId}/edit`);
+            alert('Sheet connected! Click the remove button again to add restaurants.');
+            return;
+        }
+        return;
+    }
+    
+    const editUrl = localStorage.getItem('removedSheetEditUrl') || sheetUrl.replace('/gviz/tq?tqx=out:csv', '/edit');
+    
+    // Copy the ID and open the sheet
     navigator.clipboard.writeText(restaurantId).then(() => {
-        alert(`Restaurant ID copied!\n\n"${restaurantId}"\n\nTo remove this restaurant for everyone:\n1. Go to the GitHub repo\n2. Edit removed.js\n3. Add this ID to the REMOVED_RESTAURANTS array\n4. Commit the change`);
+        const open = confirm(
+            `"${restaurantName}" ID copied!\n\n` +
+            `ID: ${restaurantId}\n\n` +
+            `Click OK to open the Google Sheet and paste the ID in a new row.`
+        );
+        if (open) {
+            window.open(editUrl, '_blank');
+        }
     }).catch(() => {
-        prompt('Copy this restaurant ID and add it to removed.js:', restaurantId);
+        prompt(`Copy this ID and add it to your Google Sheet:`, restaurantId);
+        window.open(editUrl, '_blank');
     });
 }
 
@@ -338,7 +403,7 @@ function createRestaurantCard(restaurant) {
                     <button class="tried-toggle ${isTried ? 'is-tried' : ''}" onclick="toggleTriedStatus('${restaurant.id}')">
                         ${isTried ? '✓ Tried' : 'Mark as Tried'}
                     </button>
-                    <button class="remove-btn" onclick="copyRemoveId('${restaurant.id}', event)" title="Remove from list">
+                    <button class="remove-btn" onclick="removeRestaurant('${restaurant.id}', '${restaurant.name.replace(/'/g, "\\'").replace(/"/g, '')}', event)" title="Remove from list">
                         ✕
                     </button>
                 </div>
@@ -413,7 +478,10 @@ function updateTimeDisplay() {
 }
 
 // Event listeners
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    // Fetch removed restaurants first (from Google Sheet)
+    await fetchRemovedRestaurants();
+    
     // Fetch restaurants from Yelp API via backend
     fetchRestaurants();
     updateTimeDisplay();

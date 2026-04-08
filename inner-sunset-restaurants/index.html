@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner Sunset Restaurants | Hours & Days</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🌅 Inner Sunset Restaurants</h1>
+            <p class="subtitle">Hours & Days Guide for San Francisco's Inner Sunset Neighborhood</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search restaurants...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="open-now">Open Now</button>
+                <button class="filter-btn" data-filter="breakfast">Breakfast</button>
+                <button class="filter-btn" data-filter="lunch">Lunch</button>
+                <button class="filter-btn" data-filter="dinner">Dinner</button>
+                <button class="filter-btn" data-filter="late-night">Late Night</button>
+            </div>
+            <div class="tried-filter-buttons">
+                <button class="tried-btn active" data-tried="all">All</button>
+                <button class="tried-btn" data-tried="tried">✓ Tried</button>
+                <button class="tried-btn" data-tried="not-tried">Not Tried</button>
+            </div>
+            <div class="cuisine-filter">
+                <select id="cuisine-select">
+                    <option value="all">All Cuisines</option>
+                    <option value="american">American</option>
+                    <option value="asian">Asian</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="korean">Korean</option>
+                    <option value="mexican">Mexican</option>
+                    <option value="thai">Thai</option>
+                    <option value="vietnamese">Vietnamese</option>
+                    <option value="italian">Italian</option>
+                    <option value="cafe">Cafe</option>
+                    <option value="bakery">Bakery</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="current-time">
+            <span id="current-day"></span> • <span id="current-time"></span>
+        </div>
+
+        <div class="restaurant-grid" id="restaurant-grid">
+            <!-- Restaurants will be populated by JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Made with ❤️ for the Inner Sunset neighborhood</p>
+            <p class="disclaimer">Hours may vary. Please call ahead to confirm.</p>
+        </div>
+    </footer>
+
+    <script src="removed.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

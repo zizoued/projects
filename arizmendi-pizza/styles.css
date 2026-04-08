@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #fff5e6 0%, #ffe4c4 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 100px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #c73b2c;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 0.95rem;
+    color: #666;
+    font-weight: 500;
+}
+
+/* Today's Pizza Card */
+.today-highlight {
+    background: linear-gradient(135deg, #c73b2c 0%, #e85d4c 100%);
+    border-radius: 20px;
+    padding: 25px;
+    color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 30px rgba(199, 59, 44, 0.3);
+}
+
+.today-highlight .label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.9;
+    margin-bottom: 8px;
+}
+
+.today-highlight .date {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    opacity: 0.95;
+}
+
+.today-highlight .pizza-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.today-highlight.closed {
+    background: linear-gradient(135deg, #666 0%, #888 100%);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.today-highlight .closed-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Upcoming Section */
+.upcoming-section h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.pizza-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.pizza-card {
+    background: white;
+    border-radius: 16px;
+    padding: 18px 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pizza-card:active {
+    transform: scale(0.98);
+}
+
+.pizza-card .day-date {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.pizza-card .day {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #c73b2c;
+    text-transform: uppercase;
+}
+
+.pizza-card .date {
+    font-size: 0.85rem;
+    color: #888;
+}
+
+.pizza-card .pizza-name {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+.pizza-card.closed {
+    background: #f5f5f5;
+    opacity: 0.7;
+}
+
+.pizza-card.closed .day {
+    color: #999;
+}
+
+.pizza-card.closed .pizza-name {
+    color: #999;
+    font-style: italic;
+}
+
+/* Ingredient Tags */
+.ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 10px;
+}
+
+.ingredient-tag {
+    background: #fff5e6;
+    color: #c73b2c;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 15px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.order-btn {
+    display: inline-block;
+    background: #c73b2c;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    transition: background 0.2s ease;
+}
+
+.order-btn:active {
+    background: #a52f22;
+}
+
+/* Special days */
+.pizza-card.special-closed {
+    background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 100%);
+    border: 2px dashed #ccc;
+}
+
+.pizza-card.special-closed .pizza-name {
+    color: #666;
+}
+
+/* Refresh indicator */
+.refresh-note {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 20px;
+}
+
+/* Pull to refresh hint */
+@keyframes pulse {
+    0%, 100% { opacity: 0.5; }
+    50% { opacity: 1; }
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+    color: #999;
+    animation: pulse 1.5s infinite;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        color: #eee;
+    }
+
+    .pizza-card {
+        background: #333;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .pizza-card .day {
+        color: #ff6b5b;
+    }
+
+    .pizza-card .date {
+        color: #aaa;
+    }
+
+    .pizza-card .pizza-name {
+        color: #eee;
+    }
+
+    .pizza-card.closed {
+        background: #2a2a2a;
+    }
+
+    .upcoming-section h2 {
+        color: #eee;
+    }
+
+    .ingredient-tag {
+        background: #444;
+        color: #ff6b5b;
+    }
+
+    footer {
+        background: #222;
+    }
+
+    footer p {
+        color: #aaa;
+    }
+
+    .subtitle {
+        color: #aaa;
+    }
+}

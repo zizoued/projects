@@ -1,41 +1,874 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arizmendi Pizza Tracker</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Arizmendi — 9th Avenue · Daily Pizza</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper: oklch(0.965 0.012 85);
+    --paper-2: oklch(0.94 0.018 82);
+    --ink: oklch(0.22 0.012 60);
+    --ink-soft: oklch(0.38 0.01 60);
+    --rule: oklch(0.82 0.018 75);
+    --tomato: oklch(0.58 0.18 28);
+    --olive: oklch(0.62 0.12 95);
+    --flour: oklch(0.99 0.006 85);
+    --serif: "Instrument Serif", "Hoefler Text", Georgia, serif;
+    --body: "Newsreader", Georgia, serif;
+    --mono: "JetBrains Mono", ui-monospace, monospace;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:var(--body);
+    background:var(--paper);
+    color:var(--ink);
+    font-size:17px;
+    line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+    background-image:
+      radial-gradient(oklch(0.9 0.02 80 / .35) 1px, transparent 1.4px),
+      radial-gradient(oklch(0.88 0.02 80 / .22) 1px, transparent 1.2px);
+    background-size: 3px 3px, 7px 7px;
+    background-position: 0 0, 1px 2px;
+  }
+  a{color:inherit}
+
+  .wrap{max-width:1240px;margin:0 auto;padding:0 36px}
+
+  /* ——— Masthead ——— */
+  .mast{
+    border-top:6px solid var(--ink);
+    border-bottom:1px solid var(--ink);
+    padding:14px 0 10px;
+    margin-top:0;
+    background:var(--paper);
+  }
+  .mast-row{
+    display:grid; grid-template-columns: 1fr auto 1fr; align-items:end;
+    gap:24px;
+  }
+  .mast-left, .mast-right{
+    font-family:var(--mono); font-size:11px; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--ink-soft);
+    display:flex; flex-direction:column; gap:4px;
+  }
+  .mast-right{align-items:flex-end; text-align:right}
+  .mast h1{
+    font-family:var(--serif);
+    font-weight:400;
+    font-size: clamp(54px, 9vw, 132px);
+    line-height:.92;
+    letter-spacing:-0.02em;
+    margin:0;
+    text-align:center;
+  }
+  .mast h1 em{font-style:italic; color:var(--tomato)}
+  .mast-sub{
+    font-family:var(--mono); font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+    text-align:center; margin-top:10px; color:var(--ink-soft);
+    display:flex; justify-content:center; gap:16px; flex-wrap:wrap;
+  }
+  .mast-sub span::before{content:"·"; margin-right:16px; color:var(--rule)}
+  .mast-sub span:first-child::before{content:""; margin:0}
+
+  .status-dot{
+    display:inline-block; width:7px; height:7px; border-radius:50%;
+    background:var(--tomato); margin-right:6px; vertical-align:middle;
+    box-shadow:0 0 0 3px oklch(0.58 0.18 28 / .15);
+    animation: pulse 2.2s ease-in-out infinite;
+  }
+  @keyframes pulse{ 0%,100%{opacity:1} 50%{opacity:.4} }
+  .open-dot{background:oklch(0.62 0.14 145); box-shadow:0 0 0 3px oklch(0.62 0.14 145 / .15)}
+
+  /* ——— Today hero ——— */
+  .today{
+    display:grid;
+    grid-template-columns: 1.15fr .85fr;
+    gap:0;
+    border-bottom:1px solid var(--ink);
+  }
+  .today-left{
+    padding:48px 48px 44px 0;
+    border-right:1px solid var(--ink);
+    padding-right:48px;
+  }
+  .eyebrow{
+    font-family:var(--mono); font-size:11px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--tomato); display:flex; align-items:center; gap:10px; margin-bottom:18px;
+  }
+  .eyebrow::after{content:""; flex:1; height:1px; background:var(--rule)}
+  .today h2{
+    font-family:var(--serif); font-weight:400;
+    font-size: clamp(48px, 6.4vw, 92px);
+    line-height:.98; letter-spacing:-0.015em;
+    margin:0 0 18px;
+  }
+  .today h2 em{font-style:italic}
+  .toppings{
+    font-family:var(--serif); font-style:italic;
+    font-size: clamp(22px, 2.4vw, 30px);
+    line-height:1.35; color:var(--ink-soft);
+    margin:0 0 30px; max-width:42ch;
+  }
+  .toppings .dot{display:inline-block; width:4px; height:4px; border-radius:50%; background:var(--tomato); vertical-align:middle; margin:0 10px 4px}
+
+  .order-row{
+    display:flex; gap:12px; flex-wrap:wrap; margin-bottom:28px;
+  }
+  .btn{
+    display:inline-flex; align-items:center; gap:10px;
+    font-family:var(--mono); font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    padding:14px 22px; border-radius:999px;
+    background:var(--ink); color:var(--paper); border:1px solid var(--ink);
+    cursor:pointer; text-decoration:none; transition:transform .15s ease;
+  }
+  .btn:hover{transform:translateY(-1px)}
+  .btn.ghost{background:transparent; color:var(--ink)}
+  .btn .arrow{transition:transform .2s}
+  .btn:hover .arrow{transform:translateX(3px)}
+
+  .facts{
+    display:grid; grid-template-columns:repeat(3, 1fr);
+    border-top:1px solid var(--rule);
+    font-family:var(--mono); font-size:11px; letter-spacing:.14em; text-transform:uppercase;
+  }
+  .facts div{padding:16px 14px 0; border-right:1px dashed var(--rule); color:var(--ink-soft)}
+  .facts div:last-child{border-right:none}
+  .facts b{display:block; font-family:var(--serif); font-style:italic; font-weight:400;
+    text-transform:none; letter-spacing:0; font-size:22px; color:var(--ink); margin-top:6px}
+
+  /* Pizza illustration */
+  .today-right{
+    position:relative;
+    background:
+      repeating-linear-gradient(45deg, transparent 0 10px, oklch(0.94 0.018 82 / .7) 10px 11px),
+      var(--paper-2);
+    display:grid; place-items:center;
+    min-height:560px;
+    overflow:hidden;
+  }
+  .pie{
+    position:relative; width:78%; aspect-ratio:1/1;
+    filter: drop-shadow(0 20px 30px oklch(0.22 0.012 60 / .12));
+  }
+  .pie svg{width:100%; height:100%; display:block}
+  .pie-tag{
+    position:absolute; bottom:22px; left:22px;
+    font-family:var(--mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--ink-soft);
+    border:1px solid var(--rule); padding:6px 10px; border-radius:4px;
+    background:var(--flour);
+  }
+  .stamp{
+    position:absolute; top:28px; right:28px;
+    width:112px; height:112px; border-radius:50%;
+    border:1.5px dashed var(--tomato); color:var(--tomato);
+    display:grid; place-items:center;
+    font-family:var(--mono); font-size:9.5px; letter-spacing:.18em; text-transform:uppercase;
+    text-align:center; line-height:1.35;
+    transform: rotate(-8deg);
+    background: oklch(0.98 0.01 85 / .6);
+  }
+  .stamp b{display:block; font-family:var(--serif); font-style:italic; font-size:22px; letter-spacing:0; text-transform:none; color:var(--tomato); margin-top:3px}
+
+  /* ——— Co-op strip ——— */
+  .strip{
+    border-bottom:1px solid var(--ink);
+    background:var(--ink);
+    color:var(--paper);
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  .strip-track{
+    display:inline-flex; gap:48px;
+    padding:14px 0;
+    font-family:var(--mono); font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+    animation: marquee 48s linear infinite;
+  }
+  .strip-track span{display:inline-flex; align-items:center; gap:14px}
+  .strip-track .dot{width:5px; height:5px; background:var(--tomato); border-radius:50%}
+  @keyframes marquee{ from{transform:translateX(0)} to{transform:translateX(-50%)} }
+
+  /* ——— Section heads ——— */
+  .sec{padding:64px 0 48px; border-bottom:1px solid var(--ink)}
+  .sec-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    margin-bottom:28px; gap:24px; flex-wrap:wrap;
+  }
+  .sec-head h3{
+    font-family:var(--serif); font-weight:400;
+    font-size: clamp(36px, 4.4vw, 64px);
+    line-height:1;
+    margin:0; letter-spacing:-0.01em;
+  }
+  .sec-head h3 em{font-style:italic}
+  .sec-head p{
+    font-family:var(--mono); font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-soft); margin:0; max-width:36ch; text-align:right;
+  }
+
+  /* ——— Calendar: rolling 14-day timeline ——— */
+  .cal{
+    display:grid;
+    grid-template-columns: 200px 1fr;
+    border:1px solid var(--ink);
+    background:var(--paper);
+  }
+  .cal-today{
+    border-right:1px solid var(--ink);
+    padding:22px 22px 22px;
+    background: oklch(0.98 0.03 85);
+    display:flex; flex-direction:column; gap:10px;
+    position:relative;
+  }
+  .cal-today .tag{
+    font-family:var(--mono); font-size:9px; letter-spacing:.22em; text-transform:uppercase;
+    background:var(--tomato); color:var(--flour);
+    padding:3px 7px; border-radius:2px; align-self:flex-start;
+  }
+  .cal-today .date{
+    font-family:var(--mono); font-size:11px; letter-spacing:.14em; color:var(--ink-soft);
+    text-transform:uppercase;
+  }
+  .cal-today .dateBig{
+    font-family:var(--serif); font-size:44px; line-height:.95; letter-spacing:-0.02em;
+  }
+  .cal-today .dateBig em{font-style:italic}
+  .cal-today .pizza{
+    font-family:var(--serif); font-style:italic; font-size:18px; line-height:1.3;
+    color:var(--ink); margin-top:6px;
+  }
+  .cal-upcoming{
+    display:flex; overflow-x:auto; scroll-snap-type:x mandatory;
+    scrollbar-width: thin;
+  }
+  .cal-upcoming::-webkit-scrollbar{height:6px}
+  .cal-upcoming::-webkit-scrollbar-thumb{background:var(--rule); border-radius:3px}
+  .cal-upcoming .cell{
+    flex:0 0 200px;
+    border-right:1px solid var(--rule);
+    padding:18px 16px 18px;
+    display:flex; flex-direction:column; gap:8px;
+    scroll-snap-align:start;
+    min-height:170px;
+    position:relative;
+  }
+  .cal-upcoming .cell:last-child{border-right:none}
+  .cal-upcoming .cell.closed{
+    background: repeating-linear-gradient(135deg, transparent 0 6px, oklch(0.88 0.018 82 / .5) 6px 7px);
+    flex:0 0 120px;
+  }
+  .cal-upcoming .cell .dayname{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  .cal-upcoming .cell .daynum{
+    font-family:var(--serif); font-size:28px; line-height:1; letter-spacing:-0.01em;
+  }
+  .cal-upcoming .cell .daynum em{font-style:italic; color:var(--tomato)}
+  .cal-upcoming .cell .pizza{
+    font-family:var(--serif); font-style:italic; font-size:15.5px; line-height:1.35;
+    color:var(--ink); margin-top:2px;
+  }
+  .cal-upcoming .cell.closed .pizza,
+  .cal-upcoming .cell.closed .daynum{color:var(--ink-soft); opacity:.7}
+  .cal-upcoming .cell.closed .closed-label{
+    font-family:var(--mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--ink-soft); margin-top:auto;
+  }
+  .cal-upcoming .cell.weekend::before{
+    content:""; position:absolute; top:14px; right:14px;
+    width:6px; height:6px; border-radius:50%; background:var(--olive);
+  }
+
+  .cal-foot{
+    display:flex; justify-content:space-between; align-items:center;
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-soft); margin-top:14px; gap:16px; flex-wrap:wrap;
+  }
+  .cal-foot .legend{display:flex; gap:18px; flex-wrap:wrap}
+  .cal-foot .legend span{display:inline-flex; align-items:center; gap:8px}
+  .sw{width:10px; height:10px; border:1px solid var(--ink); display:inline-block}
+  .sw.sw-today{background:oklch(0.98 0.03 85)}
+  .sw.sw-closed{background: repeating-linear-gradient(135deg, transparent 0 3px, oklch(0.85 0.02 80) 3px 4px)}
+  .sw.sw-weekend{background:transparent; position:relative}
+  .sw.sw-weekend::after{content:""; position:absolute; inset:0; margin:auto; width:5px; height:5px; border-radius:50%; background:var(--olive)}
+
+  /* ——— Two-col: breads + pastries ——— */
+  .two{
+    display:grid; grid-template-columns: 1fr 1fr;
+    gap:0;
+  }
+  .two > div{padding:0 32px}
+  .two > div:first-child{padding-left:0; border-right:1px solid var(--ink)}
+  .two > div:last-child{padding-right:0; padding-left:32px}
+
+  .list-head{
+    display:flex; justify-content:space-between; align-items:baseline;
+    gap:16px;
+    padding-bottom:10px; border-bottom:1px solid var(--ink); margin-bottom:12px;
+  }
+  .list-head h4{
+    font-family:var(--serif); font-weight:400; font-size:30px; margin:0; letter-spacing:-0.01em;
+    flex:1; min-width:0;
+  }
+  .list-head .pill{flex-shrink:0; align-self:center}
+  .list-head h4 em{font-style:italic}
+  .list-head .pill{
+    font-family:var(--mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase;
+    border:1px solid var(--ink); padding:4px 8px; border-radius:999px;
+  }
+  .menu-list{list-style:none; padding:0; margin:0}
+  .menu-list li{
+    display:grid; grid-template-columns: 1fr auto;
+    align-items:end; gap:10px;
+    padding:10px 0; border-bottom:1px dotted var(--rule);
+  }
+  .menu-list .name{font-family:var(--serif); font-size:20px; font-style:italic}
+  .menu-list .note{display:block; font-family:var(--body); font-style:normal; font-size:14px; color:var(--ink-soft); letter-spacing:0; margin-top:2px}
+  .menu-list .price{font-family:var(--mono); font-size:13px; color:var(--ink); white-space:nowrap}
+  .menu-list .tag{
+    display:inline-block; font-family:var(--mono); font-size:9px; letter-spacing:.16em; text-transform:uppercase;
+    padding:2px 6px; border:1px solid var(--rule); border-radius:2px;
+    margin-left:8px; color:var(--ink-soft);
+    vertical-align:middle;
+  }
+  .menu-list .tag.v{border-color:oklch(0.62 0.14 145); color:oklch(0.5 0.14 145)}
+  .menu-list .tag.gf{border-color:var(--olive); color:oklch(0.45 0.12 95)}
+
+  /* ——— Story + hours footer ——— */
+  .foot{
+    display:grid; grid-template-columns: 1.4fr 1fr 1fr;
+    gap:0;
+    border-bottom:1px solid var(--ink);
+  }
+  .foot > div{padding:56px 32px; border-right:1px solid var(--ink)}
+  .foot > div:last-child{border-right:none}
+  .foot > div:first-child{padding-left:0}
+  .foot > div:last-child{padding-right:0}
+
+  .foot h3{
+    font-family:var(--serif); font-weight:400; font-size:44px; line-height:1;
+    margin:0 0 18px; letter-spacing:-0.01em;
+  }
+  .foot h3 em{font-style:italic}
+  .foot p{font-size:16.5px; line-height:1.55; color:var(--ink-soft); margin:0 0 12px; max-width:44ch}
+  .foot .sig{font-family:var(--serif); font-style:italic; font-size:18px; color:var(--ink); margin-top:14px}
+  .foot .label{
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.2em; text-transform:uppercase;
+    color:var(--ink-soft); margin-bottom:14px;
+  }
+  .hours{font-family:var(--mono); font-size:13px; line-height:1.9}
+  .hours .row{display:flex; justify-content:space-between; gap:10px; border-bottom:1px dotted var(--rule); padding:2px 0; white-space:nowrap}
+  .hours .row span:last-child{flex-shrink:0}
+  .hours .row.closed span:last-child{color:var(--tomato)}
+  .hours .row.today{color:var(--ink); font-weight:600}
+  .addr{font-family:var(--serif); font-size:22px; font-style:italic; line-height:1.35}
+  .addr a{text-decoration:none; border-bottom:1px solid var(--rule)}
+
+  .tiny-map{
+    margin-top:20px; height:130px; border:1px solid var(--ink);
+    background:
+      linear-gradient(to right, oklch(0.88 0.02 80) 1px, transparent 1px) 0 0/ 40px 40px,
+      linear-gradient(to bottom, oklch(0.88 0.02 80) 1px, transparent 1px) 0 0/ 40px 40px,
+      var(--paper-2);
+    position:relative; overflow:hidden;
+  }
+  .tiny-map::before{
+    content:""; position:absolute; left:0; top:40%; right:0; height:14px;
+    background:oklch(0.88 0.05 100); border-top:1px solid var(--rule); border-bottom:1px solid var(--rule);
+  }
+  .tiny-map::after{
+    content:""; position:absolute; left:50%; top:50%;
+    width:12px; height:12px; background:var(--tomato); border-radius:50%;
+    transform:translate(-50%,-50%);
+    box-shadow: 0 0 0 4px oklch(0.58 0.18 28 / .3);
+  }
+  .map-label{position:absolute; left:8px; bottom:6px; font-family:var(--mono); font-size:10px; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-soft)}
+  .map-pin-label{
+    position:absolute; left:50%; top:50%; transform:translate(14px, -22px);
+    font-family:var(--serif); font-style:italic; font-size:14px;
+    background:var(--flour); padding:2px 6px; border:1px solid var(--rule);
+  }
+
+  /* ——— Bottom bar ——— */
+  .colophon{
+    padding:22px 0 40px;
+    display:flex; justify-content:space-between; align-items:center; gap:24px; flex-wrap:wrap;
+    font-family:var(--mono); font-size:10.5px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+  .colophon .cred{max-width:50ch}
+
+  @media (max-width: 1080px){
+    .foot{grid-template-columns: 1fr 1fr; }
+    .foot > div:nth-child(3){grid-column: 1 / -1; border-right:none; border-top:1px solid var(--ink); padding-top:40px}
+    .foot > div:nth-child(2){border-right:none}
+  }
+  @media (max-width: 900px){
+    .today{grid-template-columns:1fr}
+    .today-left{padding:32px 0; border-right:none; border-bottom:1px solid var(--ink)}
+    .two{grid-template-columns:1fr}
+    .two > div:first-child{border-right:none; border-bottom:1px solid var(--ink); padding:0 0 24px}
+    .two > div:last-child{padding:24px 0 0}
+    .foot{grid-template-columns:1fr}
+    .foot > div{padding:32px 0; border-right:none; border-bottom:1px solid var(--rule)}
+    .cal{grid-template-columns: 1fr}
+    .cal-today{border-right:none; border-bottom:1px solid var(--ink)}
+    .wrap{padding:0 22px}
+  }
+</style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>🍕 Arizmendi Pizza</h1>
-            <p class="subtitle">Inner Sunset • Daily Pizza Schedule</p>
-        </header>
 
-        <div class="today-highlight" id="today-card">
-            <!-- Today's pizza will be injected here -->
-        </div>
+<!-- =================== MASTHEAD =================== -->
+<header class="mast">
+  <div class="wrap">
+    <div class="mast-row">
+      <div class="mast-left">
+        <div><span class="status-dot" id="status-dot"></span><span id="open-status">—</span></div>
+        <div id="today-date"></div>
+      </div>
+      <div></div>
+      <div class="mast-right">
+        <div>Vol. XXV · No. <span id="doy">—</span></div>
+        <div>Inner Sunset · San Francisco</div>
+      </div>
+    </div>
+    <h1>Arizmendi <em>Bakery</em></h1>
+    <div class="mast-sub">
+      <span>A Worker-Owned Cooperative</span>
+      <span>Est. 2000</span>
+      <span>Breads · Pastries · Gourmet Pizza</span>
+      <span>1331 9th Avenue</span>
+    </div>
+  </div>
+</header>
 
-        <div class="upcoming-section">
-            <h2>Upcoming Pizzas</h2>
-            <div class="pizza-list" id="pizza-list">
-                <!-- Pizza cards will be injected here -->
-            </div>
-        </div>
+<!-- =================== TODAY HERO =================== -->
+<section class="wrap today">
+  <div class="today-left">
+    <div class="eyebrow">Today's Pizza · Served 11:00 am</div>
+    <h2 id="hero-title">The <em></em><br/>Pie.</h2>
+    <p class="toppings" id="today-toppings"></p>
+    <div class="order-row">
+      <a class="btn" href="https://store.arizmendibakery.com/menu" target="_blank" rel="noopener">Order a pie <span class="arrow">→</span></a>
+      <a class="btn ghost" href="#calendar">See what's next</a>
+    </div>
+    <div class="facts">
+      <div>Crust<b>Thin, sourdough</b></div>
+      <div>Size<b>18″ round</b></div>
+      <div>Slices<b>Rectangles, to-the-edge</b></div>
+    </div>
+  </div>
+  <div class="today-right">
+    <div class="stamp">
+      Baked fresh<br/>today
+      <b id="stamp-date"></b>
+    </div>
+    <div class="pie" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <defs>
+          <radialGradient id="crust" cx="50%" cy="50%" r="50%">
+            <stop offset="82%" stop-color="oklch(0.86 0.06 75)"/>
+            <stop offset="92%" stop-color="oklch(0.72 0.1 55)"/>
+            <stop offset="100%" stop-color="oklch(0.55 0.1 45)"/>
+          </radialGradient>
+          <radialGradient id="cheese" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="oklch(0.95 0.06 95)"/>
+            <stop offset="100%" stop-color="oklch(0.86 0.08 90)"/>
+          </radialGradient>
+        </defs>
+        <circle cx="200" cy="200" r="185" fill="url(#crust)"/>
+        <circle cx="200" cy="200" r="162" fill="url(#cheese)"/>
+        <g fill="oklch(0.32 0.06 40 / .5)">
+          <circle cx="50" cy="180" r="3"/><circle cx="360" cy="220" r="2.5"/>
+          <circle cx="200" cy="30" r="3"/><circle cx="120" cy="360" r="2"/>
+          <circle cx="300" cy="60" r="2.5"/><circle cx="80" cy="80" r="2"/>
+        </g>
+        <!-- cherry tomatoes -->
+        <g>
+          <g transform="translate(140,150)"><circle r="18" fill="oklch(0.58 0.18 28)"/><ellipse cx="-5" cy="-6" rx="5" ry="3" fill="oklch(0.78 0.14 28)" opacity=".7"/></g>
+          <g transform="translate(240,130)"><circle r="16" fill="oklch(0.55 0.19 25)"/><ellipse cx="-4" cy="-5" rx="4" ry="2.5" fill="oklch(0.78 0.14 28)" opacity=".7"/></g>
+          <g transform="translate(280,230)"><circle r="19" fill="oklch(0.58 0.18 28)"/><ellipse cx="-5" cy="-6" rx="5" ry="3" fill="oklch(0.78 0.14 28)" opacity=".7"/></g>
+          <g transform="translate(160,260)"><circle r="15" fill="oklch(0.55 0.19 25)"/><ellipse cx="-4" cy="-5" rx="4" ry="2.5" fill="oklch(0.78 0.14 28)" opacity=".7"/></g>
+          <g transform="translate(210,200)"><circle r="17" fill="oklch(0.58 0.18 28)"/><ellipse cx="-5" cy="-6" rx="5" ry="3" fill="oklch(0.78 0.14 28)" opacity=".7"/></g>
+        </g>
+        <!-- mixed greens -->
+        <g fill="oklch(0.52 0.12 145)" opacity=".88">
+          <path d="M100,220 q8,-14 22,-10 q-6,14 -22,10z"/>
+          <path d="M260,300 q10,-12 22,-6 q-8,12 -22,6z"/>
+          <path d="M190,110 q8,-12 20,-8 q-6,12 -20,8z"/>
+          <path d="M130,320 q10,-10 20,-4 q-8,10 -20,4z"/>
+          <path d="M320,160 q10,-10 20,-4 q-8,10 -20,4z"/>
+          <path d="M100,110 q10,-10 20,-4 q-8,10 -20,4z"/>
+        </g>
+        <!-- parmesan flakes -->
+        <g fill="oklch(0.92 0.08 90)">
+          <rect x="170" y="175" width="10" height="3" transform="rotate(18 175 176)"/>
+          <rect x="225" y="170" width="8" height="2.5" transform="rotate(-24 229 171)"/>
+          <rect x="155" y="230" width="10" height="3" transform="rotate(40 160 231)"/>
+          <rect x="260" y="185" width="8" height="2.5" transform="rotate(-10 264 186)"/>
+          <rect x="195" y="260" width="10" height="3" transform="rotate(55 200 261)"/>
+          <rect x="240" y="250" width="8" height="2.5" transform="rotate(12 244 251)"/>
+        </g>
+      </svg>
+    </div>
+    <div class="pie-tag">Fig. 01 · House sourdough, 18″</div>
+  </div>
+</section>
 
-        <footer>
-            <p>📍 1331 9th Avenue, SF</p>
-            <p>⏰ Tue-Sun: 7:30am - 6pm (Pizza starts 11am)</p>
-            <p>📞 (415) 566-3117</p>
-            <a href="https://store.arizmendibakery.com/menu" target="_blank" class="order-btn">Order Online</a>
-        </footer>
+<!-- =================== CO-OP STRIP =================== -->
+<section class="strip" aria-hidden="true">
+  <div class="strip-track">
+    <span><span class="dot"></span>Worker-Owned Since 2000</span>
+    <span><span class="dot"></span>Organic Sourdough Crust</span>
+    <span><span class="dot"></span>Equator Coffee</span>
+    <span><span class="dot"></span>Two Blocks from Golden Gate Park</span>
+    <span><span class="dot"></span>Pizza at 11 · Lite-Bakes at 10:30</span>
+    <span><span class="dot"></span>Mondragón Inspired</span>
+    <span><span class="dot"></span>Worker-Owned Since 2000</span>
+    <span><span class="dot"></span>Organic Sourdough Crust</span>
+    <span><span class="dot"></span>Equator Coffee</span>
+    <span><span class="dot"></span>Two Blocks from Golden Gate Park</span>
+    <span><span class="dot"></span>Pizza at 11 · Lite-Bakes at 10:30</span>
+    <span><span class="dot"></span>Mondragón Inspired</span>
+  </div>
+</section>
+
+<!-- =================== CALENDAR =================== -->
+<section class="wrap sec" id="calendar">
+  <div class="sec-head">
+    <h3>Today &amp; the <em>next two</em> weeks.</h3>
+    <p>9th Avenue · rolling timeline · tentative &amp; subject to change</p>
+  </div>
+  <div class="cal" id="cal">
+    <div class="cal-today" id="cal-today"></div>
+    <div class="cal-upcoming" id="cal-upcoming"></div>
+  </div>
+  <div class="cal-foot">
+    <div class="legend">
+      <span><i class="sw sw-today"></i>Today</span>
+      <span><i class="sw"></i>Coming up (next 14 days)</span>
+      <span><i class="sw sw-weekend"></i>Weekend</span>
+      <span><i class="sw sw-closed"></i>Mondays closed</span>
+    </div>
+    <div>p&amp;p = parsley &amp; parmesan</div>
+  </div>
+</section>
+
+<!-- =================== BREADS + PASTRIES =================== -->
+<section class="wrap sec">
+  <div class="sec-head">
+    <h3>From the <em>ovens</em>.</h3>
+    <p>Most everything organic · vegan &amp; gluten-free items marked · prices per item</p>
+  </div>
+
+  <div class="two">
+    <div>
+      <div class="list-head">
+        <h4 id="special-breads-head"><em>Special</em> breads today</h4>
+        <span class="pill">Today only</span>
+      </div>
+      <ul class="menu-list" id="special-breads-list">
+        <!-- populated by JS -->
+      </ul>
+
+      <div class="list-head" style="margin-top:30px">
+        <h4>Always <em>on the shelf</em></h4>
+        <span class="pill">Daily</span>
+      </div>
+      <ul class="menu-list">
+        <li><span class="name">Plain &amp; Simple Sourdough<span class="note">Our classic. Round, batard or sandwich shape.</span></span><span class="price">$7.50</span></li>
+        <li><span class="name">Seeded Sourdough<span class="note">Sesame, poppy &amp; fennel on the outside.</span></span><span class="price">$8.00</span></li>
+        <li><span class="name">Rustic Cherry-Apricot-Nut<span class="note">Sour cherries, apricots, walnuts, pecans.</span></span><span class="price">$9.50</span></li>
+        <li><span class="name">Focaccia <span class="tag v">V</span><span class="note">Flavor changes daily — ask at the counter.</span></span><span class="price">$5.25 / slice</span></li>
+        <li><span class="name">Garlic Breadsticks<span class="note">Our pizza crust with butter &amp; parmesan.</span></span><span class="price">$3.50</span></li>
+      </ul>
     </div>
 
-    <script src="pizza-data.js"></script>
-    <script src="script.js"></script>
+    <div>
+      <div class="list-head">
+        <h4>Scones, muffins &amp; <em>other small</em> joys</h4>
+        <span class="pill">Out by 7:30</span>
+      </div>
+      <ul class="menu-list">
+        <li><span class="name">Corn-Cherry Scone<span class="note">Cornmeal, dried cherries. A staff favorite.</span></span><span class="price">$4.25</span></li>
+        <li><span class="name">Currant Scone<span class="note">A proper cream scone with zante currants.</span></span><span class="price">$4.25</span></li>
+        <li><span class="name">Oat Scone <span class="tag v">V</span><span class="note">Vegan. Rolled oats, maple, a pinch of salt.</span></span><span class="price">$4.25</span></li>
+        <li><span class="name">Gluten-Free Blueberry Scone <span class="tag gf">GF</span><span class="note">Almond flour base, wild blueberries.</span></span><span class="price">$4.25</span></li>
+        <li><span class="name">Scone of the Day<span class="note">Ask the counter — seasonal &amp; whatever's ripe.</span></span><span class="price">$4.25</span></li>
+        <li><span class="name">Lemon Poppy Muffin <span class="tag v">Vegan</span><span class="note">Meyer lemon zest, toasted poppy seeds.</span></span><span class="price">$3.50</span></li>
+        <li><span class="name">Carrot-Walnut Muffin <span class="tag gf">GF</span><span class="note">Made with gluten-free ingredients.</span></span><span class="price">$3.50</span></li>
+        <li><span class="name">Pumpkin-Praline Muffin <span class="tag gf">GF</span><span class="note">Spiced, with a candied pecan crown.</span></span><span class="price">$3.50</span></li>
+      </ul>
+
+      <div class="list-head" style="margin-top:30px">
+        <h4>Sweets, <em>coffee</em> &amp; pantry</h4>
+        <span class="pill">All day</span>
+      </div>
+      <ul class="menu-list">
+        <li><span class="name">Kookie Brittle<span class="note">Thin, shardy chocolate-chip cookie. Eat with hands.</span></span><span class="price">$2.75</span></li>
+        <li><span class="name">Ricciarelli<span class="note">Sienese almond cookie, powdered sugar.</span></span><span class="price">$3.00</span></li>
+        <li><span class="name">Apricot-Almond Cookie <span class="tag v">Vegan</span><span class="note">Chewy, jam-centered.</span></span><span class="price">$3.00</span></li>
+        <li><span class="name">Chocolate "Thing"<span class="note">Ganache on brownie on shortbread. The lunch cure.</span></span><span class="price">$5.50</span></li>
+        <li><span class="name">Equator Jaguar Cappuccino<span class="note">Double shot, organic whole milk. Oat +$0.75.</span></span><span class="price">$5.00</span></li>
+        <li><span class="name">Drip Coffee<span class="note">Equator, rotating single-origin.</span></span><span class="price">$3.75</span></li>
+        <li><span class="name">House Tomato Sauce — 8 oz<span class="note">For pizza, pasta, dipping. Take some home.</span></span><span class="price">$7.00</span></li>
+        <li><span class="name">Sourdough Starter — 19 oz<span class="note">Our classic dough. Bake a pie; we'll include the recipe.</span></span><span class="price">$9.00</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- =================== STORY + HOURS + MAP =================== -->
+<section class="wrap">
+  <div class="foot">
+    <div>
+      <div class="label">A cooperative, not a chain</div>
+      <h3>Every <em>baker</em> here is an owner.</h3>
+      <p>Arizmendi is a worker-owned cooperative named for José María Arizmendiarrieta, the priest who helped inspire the Mondragón Cooperatives in the Basque Country in the 1950s. Decisions, profits and dough are shared. We are two blocks from Golden Gate Park, and we've been at this since the year 2000.</p>
+      <p>Morning pastries come out first. Pizza goes in at eleven. Breads rotate by day of the week — Friday is challah and fig-fennel. The menu above is today's truth; tomorrow will be a slightly different truth.</p>
+      <div class="sig">— the crew on 9th Ave.</div>
+    </div>
+
+    <div>
+      <div class="label">Hours</div>
+      <div class="hours" id="hours">
+        <div class="row closed" data-dow="1"><span>Monday</span><span>Closed</span></div>
+        <div class="row" data-dow="2"><span>Tuesday</span><span>7:30 — 6:00</span></div>
+        <div class="row" data-dow="3"><span>Wednesday</span><span>7:30 — 6:00</span></div>
+        <div class="row" data-dow="4"><span>Thursday</span><span>7:30 — 6:00</span></div>
+        <div class="row" data-dow="5"><span>Friday</span><span>7:30 — 6:00</span></div>
+        <div class="row" data-dow="6"><span>Saturday</span><span>7:30 — 6:00</span></div>
+        <div class="row" data-dow="0"><span>Sunday</span><span>7:30 — 6:00</span></div>
+      </div>
+      <div style="margin-top:22px" class="label">Pizza service</div>
+      <div class="hours">
+        <div class="row"><span>Lite-bakes</span><span>10:30 am</span></div>
+        <div class="row"><span>First pies</span><span>11:00 am</span></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="label">Find us</div>
+      <div class="addr">
+        <a href="https://maps.google.com/?q=1331+9th+Avenue+San+Francisco" target="_blank" rel="noopener">1331 9th Avenue<br/>San Francisco, CA 94122</a>
+      </div>
+      <div class="tiny-map" aria-hidden="true">
+        <div class="map-label">Inner Sunset</div>
+        <div class="map-pin-label">us</div>
+      </div>
+      <div class="hours" style="margin-top:16px">
+        <div class="row"><span>Call</span><span>(415) 566-3117</span></div>
+        <div class="row" style="white-space:normal"><span>Email</span><span style="text-align:right">info@arizmendibakery.com</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="colophon">
+    <div class="cred">© <span id="copy-year"></span> Arizmendi Association of Cooperatives · 9th Avenue · Independently operated from our sisters in Emeryville, San Rafael, Valencia &amp; Lakeshore.</div>
+    <div>No. <span id="doy2">—</span> · Printed each morning</div>
+  </div>
+</section>
+
+<script>
+/* ——— Pizza calendar data: April 2026 (from arizmendibakery.com/pizza) ——— */
+const PIZZAS_APR_2026 = {
+  1:  "roasted yellow potatoes, spinach, sharp cheddar, rosemary oil, parmesan",
+  2:  "caramelized onions, shiitake mushrooms, gruyère, garlic oil, p&p",
+  3:  "spinach, kalamata olives, feta, lemon olive oil, p&p",
+  4:  "mushrooms, scallions, white cheddar, thyme oil, p&p",
+  5:  "house-made tomato sauce, spinach, fontina, garlic oil, p&p",
+  7:  "roasted yellow potatoes, spinach, sharp cheddar, garlic oil, parmesan",
+  8:  "mushrooms, fresh herbs, feta, lemon-garlic oil, p&p",
+  9:  "fresh asparagus, red onion, goat cheese, lemon vinaigrette",
+  10: "shiitake, button & portabella mushrooms, sesame-ginger-garlic vinaigrette",
+  11: "'Quattro Fromaggio' — asiago, feta, parmesan & romano, thyme oil, parsley",
+  12: "mixed cherry tomatoes, spinach, basil pesto",
+  14: "red onions, spinach, feta, balsamic vinaigrette",
+  15: "broccoli, white cheddar, lemon vinaigrette",
+  16: "marinated artichoke hearts, spinach, fontina, garlic oil, parmesan",
+  17: "cherry tomatoes, mixed greens, manchego, thyme oil, parmesan",
+  18: "mushrooms, red onions, gruyère, garlic oil, p&p",
+  19: "house-made tomato sauce with basil pesto",
+  21: "caramelized onions, spinach, gruyère, garlic oil, parmesan",
+  22: "cherry tomatoes, roasted garlic, fontina, rosemary oil, p&p",
+  23: "mushrooms, red onions, goat cheese, garlic oil",
+  24: "house-made tomato sauce, asiago, feta, rosemary oil, p&p",
+  25: "cherry tomatoes, spinach, manchego, garlic oil, parmesan",
+  26: "shiitake, portabella & button mushrooms, sesame-ginger-garlic vinaigrette",
+  28: "asparagus, goat cheese, lemon vinaigrette, fresh basil, parmesan",
+  29: "cherry tomatoes, poblano peppers, feta, lime-garlic oil, p&p",
+  30: "roasted yellow potatoes, spinach, gruyère, garlic oil, parmesan",
+};
+
+/* Special breads by day of week (0=Sun … 6=Sat) */
+const SPECIAL_BREADS = {
+  2: [ // Tuesday
+    {name:"Country Levain", note:"Wheat and rye, open crumb, classic shape.", price:"$8.50"},
+    {name:"Walnut Sourdough", note:"Toasted walnuts in a rustic loaf.", price:"$9.00"},
+    {name:"Plain Croissants", note:"Laminated by hand, shatteringly crisp.", price:"$4.50"},
+  ],
+  3: [ // Wednesday
+    {name:"Polenta-Herb Bread", note:"Coarse polenta, rosemary, thyme.", price:"$8.50"},
+    {name:"Olive Sourdough", note:"Picholine and castelvetrano olives.", price:"$9.25"},
+    {name:"Chocolate Croissants", note:"Pain au chocolat, dark Valrhona.", price:"$5.00"},
+  ],
+  4: [ // Thursday
+    {name:"Seeded Rye", note:"Caraway, anise, dark rye flour.", price:"$8.50"},
+    {name:"Rosemary-Currant Sourdough", note:"Sweet-savory, gorgeous crumb.", price:"$9.00"},
+    {name:"Ham & Cheese Croissants", note:"Black Forest ham, Gruyère.", price:"$5.50"},
+  ],
+  5: [ // Friday
+    {name:"Challah", note:"Braided, egg-rich, faintly sweet. A Friday ritual.", price:"$8.50"},
+    {name:"Fig-Fennel Sourdough", note:"Mission figs + toasted fennel in our rustic sourdough.", price:"$9.25"},
+    {name:"Light Rye", note:"Caraway and coriander, soft crumb, for sandwiches.", price:"$7.75"},
+    {name:"Savory Croissants", note:"Gruyère, scallion, cracked pepper. Laminated by hand.", price:"$5.50"},
+  ],
+  6: [ // Saturday
+    {name:"Einkorn Sourdough", note:"Ancient wheat, nutty, dense and delicious.", price:"$9.50"},
+    {name:"Sesame Semolina", note:"Semolina flour, toasted sesame crust.", price:"$8.75"},
+    {name:"Almond Croissants", note:"Twice-baked with frangipane.", price:"$5.25"},
+  ],
+  0: [ // Sunday
+    {name:"San Francisco Sourdough", note:"The classic. Tangy, chewy, golden crust.", price:"$8.00"},
+    {name:"Cranberry-Pecan Sourdough", note:"Tart dried cranberries, toasted pecans.", price:"$9.50"},
+    {name:"Morning Buns", note:"Orange zest, cinnamon sugar, flaky.", price:"$4.75"},
+  ],
+};
+
+/* ——— Date setup ——— */
+const DAY_FULL  = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const DAY_SHORT = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MON_FULL  = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const MON_SHORT = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+const now = new Date();
+const dow    = now.getDay();
+const dateN  = now.getDate();
+const monthN = now.getMonth(); // 0-indexed
+const year   = now.getFullYear();
+
+function getPizza(d) {
+  if (d.getMonth() === 3 && d.getFullYear() === 2026) {
+    return PIZZAS_APR_2026[d.getDate()] || null;
+  }
+  return null;
+}
+
+const todayPizza = getPizza(now);
+
+/* ——— Day of year ——— */
+function doy(d) {
+  return Math.floor((d - new Date(d.getFullYear(), 0, 0)) / 86400000);
+}
+const doyVal = doy(now);
+document.getElementById('doy').textContent  = doyVal;
+document.getElementById('doy2').textContent = doyVal;
+document.getElementById('copy-year').textContent = year;
+
+/* ——— Open/closed status ——— */
+const h = now.getHours(), m = now.getMinutes();
+const mins = h * 60 + m;
+const isMondayClosed = dow === 1;
+const isOpenNow = !isMondayClosed && mins >= 7*60+30 && mins < 18*60;
+const dot = document.getElementById('status-dot');
+if (isOpenNow) {
+  dot.classList.add('open-dot');
+  document.getElementById('open-status').textContent = 'Open · closes 6 pm';
+} else if (isMondayClosed) {
+  document.getElementById('open-status').textContent = 'Closed today (Monday)';
+} else if (mins < 7*60+30) {
+  document.getElementById('open-status').textContent = 'Opens 7:30 am';
+} else {
+  document.getElementById('open-status').textContent = 'Closed · opens 7:30 am';
+}
+
+/* ——— Masthead date ——— */
+document.getElementById('today-date').textContent =
+  `${DAY_FULL[dow]}, ${MON_FULL[monthN]} ${dateN}, ${year}`;
+
+/* ——— Hero section ——— */
+document.querySelector('#hero-title em').textContent = DAY_FULL[dow];
+const toppingsEl = document.getElementById('today-toppings');
+if (isMondayClosed) {
+  toppingsEl.innerHTML = '<span style="font-style:normal;color:var(--ink-soft);font-size:clamp(16px,1.8vw,22px)">We\'re closed on Mondays — see you Tuesday.</span>';
+  document.querySelector('.stamp').style.display = 'none';
+} else if (todayPizza) {
+  toppingsEl.innerHTML = todayPizza.replace(/,\s*/g, ' <span class="dot"></span> ');
+} else {
+  toppingsEl.innerHTML = '<span style="font-style:normal;font-size:clamp(16px,1.8vw,22px)">Today\'s pizza not yet posted — check back Sunday evening.</span>';
+}
+
+/* Stamp */
+const mm = String(monthN + 1).padStart(2, '0');
+const dd = String(dateN).padStart(2, '0');
+document.getElementById('stamp-date').textContent = `${mm}·${dd}`;
+
+/* ——— Hours: highlight today ——— */
+document.querySelectorAll('#hours .row').forEach(row => {
+  if (parseInt(row.dataset.dow) === dow) row.classList.add('today');
+});
+
+/* ——— Calendar ——— */
+function renderCalendar() {
+  const pizza = todayPizza || (isMondayClosed ? '—' : 'Menu not yet posted');
+  document.getElementById('cal-today').innerHTML = `
+    <span class="tag">Today</span>
+    <div class="date">${DAY_FULL[dow]}</div>
+    <div class="dateBig"><em>${MON_SHORT[monthN]}</em> ${dd}</div>
+    <div class="pizza">${pizza}</div>
+    <div style="margin-top:auto;font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft)">Served 11:00 am →</div>
+  `;
+
+  let html = '';
+  for (let i = 1; i <= 14; i++) {
+    const d = new Date(now); d.setDate(now.getDate() + i);
+    const fdow = d.getDay();
+    const fnum = d.getDate();
+    const fmon = MON_SHORT[d.getMonth()];
+    const weekendCls = (fdow === 0 || fdow === 6) ? 'weekend' : '';
+    if (fdow === 1) {
+      html += `<div class="cell closed">
+        <div class="dayname">Mon</div>
+        <div class="daynum">${fnum}</div>
+        <div class="closed-label">Closed</div>
+      </div>`;
+    } else {
+      const fp = getPizza(d);
+      const pHtml = fp
+        ? fp
+        : `<span style="color:var(--ink-soft);font-style:normal;font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase">Menu posts sun prior</span>`;
+      html += `<div class="cell ${weekendCls}">
+        <div class="dayname">${DAY_SHORT[fdow]} · ${fmon}</div>
+        <div class="daynum">${fnum}</div>
+        <div class="pizza">${pHtml}</div>
+      </div>`;
+    }
+  }
+  document.getElementById('cal-upcoming').innerHTML = html;
+}
+renderCalendar();
+
+/* ——— Special breads: populate by day ——— */
+const breads = SPECIAL_BREADS[dow];
+const breadList = document.getElementById('special-breads-list');
+const breadHead = document.getElementById('special-breads-head');
+breadHead.innerHTML = `<em>${DAY_FULL[dow]}'s</em> special breads`;
+if (breads && breads.length) {
+  breadList.innerHTML = breads.map(b =>
+    `<li><span class="name">${b.name}<span class="note">${b.note}</span></span><span class="price">${b.price}</span></li>`
+  ).join('');
+} else {
+  breadList.innerHTML = `<li><span class="name" style="color:var(--ink-soft)">Back tomorrow<span class="note">Special breads vary by day — check back Tuesday through Sunday.</span></span><span class="price"></span></li>`;
+}
+</script>
 </body>
 </html>

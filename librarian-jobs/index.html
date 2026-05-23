@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bay Area Librarian Jobs</title>
+  <meta name="description" content="Daily-updated list of librarian and library media specialist openings in the Inner Bay Area.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Bay Area Librarian Jobs</h1>
+    <p class="subtitle">
+      Librarian I/II, library assistant, and school library media specialist
+      openings from <a href="https://www.calopps.org/">calopps.org</a>,
+      <a href="https://www.governmentjobs.com/">governmentjobs.com</a>, and
+      <a href="https://www.edjoin.org/">edjoin.org</a>.
+      Inner Bay counties only.
+    </p>
+    <p class="meta">
+      <span id="job-count">…</span> open ·
+      Updated <span id="generated-at">…</span> ·
+      <span id="new-count">…</span> new since yesterday
+    </p>
+  </header>
+
+  <section class="filters" aria-label="Filters">
+    <fieldset>
+      <legend>County</legend>
+      <div id="county-filters" class="chip-row"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Source</legend>
+      <div id="source-filters" class="chip-row"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Sort</legend>
+      <div class="chip-row">
+        <label class="chip"><input type="radio" name="sort" value="new" checked> Newest first</label>
+        <label class="chip"><input type="radio" name="sort" value="deadline"> Deadline soonest</label>
+        <label class="chip"><input type="radio" name="sort" value="title"> Title A→Z</label>
+      </div>
+    </fieldset>
+  </section>
+
+  <main id="jobs" aria-live="polite"></main>
+
+  <footer>
+    <p>
+      Built for one job seeker, refreshed daily by a GitHub Action.
+      Data source links above are authoritative — always verify on the
+      original posting before applying.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

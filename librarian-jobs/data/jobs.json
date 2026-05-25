@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T14:31:25+00:00",
+  "generated_at": "2026-05-25T15:02:53+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -75,21 +75,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20703166",
-      "title": "Library Security Attendant (Hourly)",
-      "agency": "City of Mountain View",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/mountain-view/job-20703166",
-      "salary": "$23.89",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20105239",
       "title": "Library Aide",
       "agency": "City of Daly City",
@@ -135,21 +120,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-143411-1",
-      "title": "Library Program Manager II",
-      "agency": "City of South San Francisco",
-      "location": "South San Francisco, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/143411-1/library-program-manager-ii",
-      "salary": "$126,484.00 - $153,732.00 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5322833-0",
       "title": "Library Page",
       "agency": "Central Marin Local Governments",
@@ -165,6 +135,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-143411-1",
+      "title": "Library Program Manager II",
+      "agency": "City of South San Francisco",
+      "location": "South San Francisco, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/143411-1/library-program-manager-ii",
+      "salary": "$126,484.00 - $153,732.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-143502-1",
       "title": "Administrative Services Supervisor for the Belvedere Tiburon Library",
       "agency": "Muchmore Than Consulting",
@@ -173,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/143502-1/administrative-services-supervisor-for-the-belvedere-tiburon-library",
       "salary": "$100,313.00 - $127,997.00 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-23"
@@ -188,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5332399-0/library-assistant-ii",
       "salary": "$64,720.50 - $76,498.50 Annually",
       "employment_type": "Full Time, Regular",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-23"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T15:06:29+00:00",
+  "generated_at": "2026-05-30T14:33:14+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -104,21 +104,6 @@
       "first_seen": "2026-05-23"
     },
     {
-      "source": "calopps",
-      "source_id": "calopps-20105239",
-      "title": "Library Aide",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20105239",
-      "salary": "$19.84",
-      "employment_type": "Temporary",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5192103-0",
       "title": "Supervising Librarian",
@@ -128,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/5192103-0/supervising-librarian",
       "salary": "$115,222.22 - $138,812.13 Annually",
       "employment_type": "Career",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-23"
@@ -150,6 +135,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2229939",
+      "title": "Library Aide",
+      "agency": "Bellarmine College Preparatory",
+      "location": "San Jose, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2229939",
+      "salary": "30 - 35 Per Hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-06-13",
+      "closes_date": "2026-06-13",
+      "posted_date": "2026-05-29",
+      "first_seen": "2026-05-30"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
       "agency": "Oakland Unified School District",
@@ -158,24 +158,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full and Part Time",
-      "closes": "Closes 2027-05-28",
-      "closes_date": "2027-05-28",
-      "posted_date": "2026-05-28",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2227096",
-      "title": "School Library Media Technician at Lawson Middle School #006",
-      "agency": "Cupertino Union School District",
-      "location": "Sunnyvale, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2227096",
-      "salary": "New hires not to exceed $29.78/hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-05-30",
-      "closes_date": "2026-05-30",
-      "posted_date": "2026-05-22",
+      "closes": "Closes 2027-05-29",
+      "closes_date": "2027-05-29",
+      "posted_date": "2026-05-29",
       "first_seen": "2026-05-23"
     },
     {
@@ -195,21 +180,6 @@
     },
     {
       "source": "edjoin",
-      "source_id": "edjoin-2227100",
-      "title": "School Library Media Technician at Lincoln Elementary School #007",
-      "agency": "Cupertino Union School District",
-      "location": "Sunnyvale, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2227100",
-      "salary": "New hires not to exceed $29.78/hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-05-30",
-      "closes_date": "2026-05-30",
-      "posted_date": "2026-05-22",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
       "source_id": "edjoin-2227333",
       "title": "School Librarian - High School 1.0 FTE - CVHS 2026/2027",
       "agency": "Castro Valley Unified School District",
@@ -221,21 +191,6 @@
       "closes": "Closes 2026-11-21",
       "closes_date": "2026-11-21",
       "posted_date": "2026-05-21",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2222019",
-      "title": "Librarian / Library Teacher - Orinda Intermediate (2026-2027 School Year)",
-      "agency": "Orinda Union School District",
-      "location": "Orinda, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2222019",
-      "salary": "Plus $1464 annually for a Masters and/or Doctorate Degree",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-05-29",
-      "closes_date": "2026-05-29",
-      "posted_date": "2026-05-12",
       "first_seen": "2026-05-23"
     },
     {

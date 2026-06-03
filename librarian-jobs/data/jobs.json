@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:24:22+00:00",
+  "generated_at": "2026-06-03T15:34:48+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -165,33 +165,18 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-143411-1",
-      "title": "Library Program Manager II",
-      "agency": "City of South San Francisco",
-      "location": "South San Francisco, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/143411-1/library-program-manager-ii",
-      "salary": "$126,484.00 - $153,732.00 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 16 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-143502-1",
-      "title": "Administrative Services Supervisor for the Belvedere Tiburon Library",
-      "agency": "Muchmore Than Consulting",
-      "location": "Belvedere, CA",
+      "source_id": "governmentjobs-5358442-0",
+      "title": "Library Assistant I - Fairfax Branch",
+      "agency": "County of Marin",
+      "location": "Fairfax Library, CA",
       "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/143502-1/administrative-services-supervisor-for-the-belvedere-tiburon-library",
-      "salary": "$100,313.00 - $127,997.00 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 16 hours",
+      "url": "https://www.governmentjobs.com/jobs/5358442-0/library-assistant-i-fairfax-branch",
+      "salary": "$29.39 - $34.72 Hourly",
+      "employment_type": "Part Time, Regular",
+      "closes": "Closes in 2 weeks",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-05-23"
+      "first_seen": "2026-06-03"
     },
     {
       "source": "governmentjobs",
@@ -209,19 +194,19 @@
       "first_seen": "2026-05-23"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-06-02"
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full and Part Time",
+      "closes": "Closes 2027-06-02",
+      "closes_date": "2027-06-02",
+      "posted_date": "2026-06-02",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -237,21 +222,6 @@
       "closes_date": "2026-06-05",
       "posted_date": "2026-06-01",
       "first_seen": "2026-06-02"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full and Part Time",
-      "closes": "Closes 2027-06-01",
-      "closes_date": "2027-06-01",
-      "posted_date": "2026-06-01",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

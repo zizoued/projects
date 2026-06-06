@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T15:02:15+00:00",
+  "generated_at": "2026-06-06T14:33:15+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -120,6 +120,36 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-06-19",
+      "closes_date": "2026-06-19",
+      "posted_date": "2026-06-05",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full and Part Time",
+      "closes": "Closes 2027-06-05",
+      "closes_date": "2027-06-05",
+      "posted_date": "2026-06-05",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2233360",
       "title": "Instructional Assistant, Library Support (0.3 FTE)",
       "agency": "Los Altos Elementary School District",
@@ -132,21 +162,6 @@
       "closes_date": "2026-06-11",
       "posted_date": "2026-06-04",
       "first_seen": "2026-06-05"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full and Part Time",
-      "closes": "Closes 2027-06-04",
-      "closes_date": "2027-06-04",
-      "posted_date": "2026-06-04",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -165,21 +180,6 @@
     },
     {
       "source": "edjoin",
-      "source_id": "edjoin-2231029",
-      "title": "Library Technician (2026-2027)",
-      "agency": "Byron Union School District",
-      "location": "Byron, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2231029",
-      "salary": "$18.11 - $25.49 Per Hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-06-05",
-      "closes_date": "2026-06-05",
-      "posted_date": "2026-06-01",
-      "first_seen": "2026-06-02"
-    },
-    {
-      "source": "edjoin",
       "source_id": "edjoin-2229939",
       "title": "Library Aide",
       "agency": "Bellarmine College Preparatory",
@@ -192,21 +192,6 @@
       "closes_date": "2026-06-13",
       "posted_date": "2026-05-29",
       "first_seen": "2026-05-30"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-06-05",
-      "closes_date": "2026-06-05",
-      "posted_date": "2026-05-22",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

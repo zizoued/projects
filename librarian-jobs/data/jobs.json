@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:12:19+00:00",
+  "generated_at": "2026-06-12T15:04:01+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -27,21 +27,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-06-10"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20742815",
-      "title": "Library Assistant III",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20742815",
-      "salary": "$7,067.00",
-      "employment_type": "Full-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
     },
     {
       "source": "calopps",
@@ -90,14 +75,14 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20105239",
-      "title": "Library Aide",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20105239",
-      "salary": "$19.84",
-      "employment_type": "Temporary",
+      "source_id": "calopps-20703166",
+      "title": "Library Security Attendant (Hourly)",
+      "agency": "City of Mountain View",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/mountain-view/job-20703166",
+      "salary": "$23.89",
+      "employment_type": "Part-Time",
       "closes": "",
       "closes_date": null,
       "posted_date": null,
@@ -127,10 +112,10 @@
       "county": "Alameda",
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full and Part Time",
-      "closes": "Closes 2027-06-09",
-      "closes_date": "2027-06-09",
-      "posted_date": "2026-06-09",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-06-11",
+      "closes_date": "2027-06-11",
+      "posted_date": "2026-06-11",
       "first_seen": "2026-05-23"
     },
     {
@@ -147,21 +132,6 @@
       "closes_date": "2026-06-19",
       "posted_date": "2026-06-05",
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2233360",
-      "title": "Instructional Assistant, Library Support (0.3 FTE)",
-      "agency": "Los Altos Elementary School District",
-      "location": "Los Altos, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2233360",
-      "salary": "$20.79 - $29.80 Per Hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-06-11",
-      "closes_date": "2026-06-11",
-      "posted_date": "2026-06-04",
-      "first_seen": "2026-06-05"
     },
     {
       "source": "edjoin",
@@ -188,25 +158,10 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2229939",
       "salary": "30 - 35 Per Hour",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-06-13",
-      "closes_date": "2026-06-13",
+      "closes": "Closes 2026-06-18",
+      "closes_date": "2026-06-18",
       "posted_date": "2026-05-29",
       "first_seen": "2026-05-30"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2227333",
-      "title": "School Librarian - High School 1.0 FTE - CVHS 2026/2027",
-      "agency": "Castro Valley Unified School District",
-      "location": "Castro Valley, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2227333",
-      "salary": "Salary Placement per Credentialed Experience and Units. Annual Advanced Degree (limited to one increment): Masters: $2,917 or Doctorate: $4,364, benefit package up to $23,674 per year. Year for year credit given!",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-11-21",
-      "closes_date": "2026-11-21",
-      "posted_date": "2026-05-21",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

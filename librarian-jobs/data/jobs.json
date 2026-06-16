@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T16:00:27+00:00",
+  "generated_at": "2026-06-16T15:41:04+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -104,6 +104,21 @@
       "first_seen": "2026-05-27"
     },
     {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5259195-0",
+      "title": "Community Librarian",
+      "agency": "County of Santa Clara",
+      "location": "San Jose Metropolitan Area, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5259195-0/community-librarian",
+      "salary": "$139,836.32 - $169,975.52 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 2 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-06-16"
+    },
+    {
       "source": "edjoin",
       "source_id": "edjoin-2237601",
       "title": "School Library Media Technician at Faria Elementary School #035",
@@ -117,6 +132,36 @@
       "closes_date": "2026-06-23",
       "posted_date": "2026-06-15",
       "first_seen": "2026-06-15"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-06-15",
+      "closes_date": "2027-06-15",
+      "posted_date": "2026-06-15",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2238276",
+      "title": "Middle School School Librarian (Starting 2026-27 School Year )",
+      "agency": "Miller Creek Elementary School District",
+      "location": "San Rafael, Marin County",
+      "county": "Marin",
+      "url": "https://www.edjoin.org/Home/JobPosting/2238276",
+      "salary": "Based on Educational Units and Experience",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-07-15",
+      "closes_date": "2026-07-15",
+      "posted_date": "2026-06-15",
+      "first_seen": "2026-06-16"
     },
     {
       "source": "edjoin",
@@ -145,21 +190,6 @@
       "employment_type": "Full Time",
       "closes": "Closes 2026-06-26",
       "closes_date": "2026-06-26",
-      "posted_date": "2026-06-12",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-12",
-      "closes_date": "2027-06-12",
       "posted_date": "2026-06-12",
       "first_seen": "2026-05-23"
     },

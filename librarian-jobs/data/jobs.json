@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T15:41:04+00:00",
+  "generated_at": "2026-06-17T15:06:00+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -113,10 +113,25 @@
       "url": "https://www.governmentjobs.com/jobs/5259195-0/community-librarian",
       "salary": "$139,836.32 - $169,975.52 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-06-16"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-06-16",
+      "closes_date": "2027-06-16",
+      "posted_date": "2026-06-16",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -132,21 +147,6 @@
       "closes_date": "2026-06-23",
       "posted_date": "2026-06-15",
       "first_seen": "2026-06-15"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-15",
-      "closes_date": "2027-06-15",
-      "posted_date": "2026-06-15",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -218,8 +218,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2229939",
       "salary": "30 - 35 Per Hour",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-06-18",
-      "closes_date": "2026-06-18",
+      "closes": "Closes 2026-06-21",
+      "closes_date": "2026-06-21",
       "posted_date": "2026-05-29",
       "first_seen": "2026-05-30"
     },

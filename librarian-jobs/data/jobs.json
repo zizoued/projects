@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T15:06:00+00:00",
+  "generated_at": "2026-06-18T15:04:56+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -74,21 +74,6 @@
       "first_seen": "2026-05-23"
     },
     {
-      "source": "calopps",
-      "source_id": "calopps-20105239",
-      "title": "Library Aide",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20105239",
-      "salary": "$19.84",
-      "employment_type": "Temporary",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5350159-0",
       "title": "Librarian I - FT and PT",
@@ -98,7 +83,7 @@
       "url": "https://www.governmentjobs.com/jobs/5350159-0/librarian-i-ft-and-pt",
       "salary": "$43.90 - $56.02 Hourly",
       "employment_type": "Full-time / Part-time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-27"
@@ -119,6 +104,81 @@
       "first_seen": "2026-06-16"
     },
     {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-77222-1",
+      "title": "Library Specialist for Technology",
+      "agency": "Belvedere Tiburon Library",
+      "location": "Belvedere, CA",
+      "county": "Marin",
+      "url": "https://www.governmentjobs.com/jobs/77222-1/library-specialist-for-technology",
+      "salary": "$32.36 - $39.85 Hourly",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5362928-0",
+      "title": "Community Library Specialist",
+      "agency": "County of Marin",
+      "location": "Multiple Locations, CA",
+      "county": "Marin",
+      "url": "https://www.governmentjobs.com/jobs/5362928-0/community-library-specialist",
+      "salary": "$35.97 - $42.43 Hourly",
+      "employment_type": "Part Time, Regular",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-06-13"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5375239-0",
+      "title": "Library Technician II (INTERNAL APPLICANTS ONLYl)",
+      "agency": "Peralta Community College District (CA)",
+      "location": "Berkeley City College - Berkeley, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5375239-0/library-technician-ii-internal-applicants-onlyl",
+      "salary": "$51,463.56 - $64,988.76 Annually",
+      "employment_type": "Full Time Classified",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-06-18"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-4843495-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
+      "salary": "$29.99 - $39.56 Hourly",
+      "employment_type": "Extra Help",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-06-02"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2239701",
+      "title": "COLLEGE, CAREER AND MEDIA TECHNICIAN",
+      "agency": "Morgan Hill Unified School District",
+      "location": "Morgan Hill, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2239701",
+      "salary": "MHCEA Salary Range 41",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-07-18",
+      "closes_date": "2026-07-18",
+      "posted_date": "2026-06-17",
+      "first_seen": "2026-06-18"
+    },
+    {
       "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
@@ -128,9 +188,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-16",
-      "closes_date": "2027-06-16",
-      "posted_date": "2026-06-16",
+      "closes": "Closes 2027-06-17",
+      "closes_date": "2027-06-17",
+      "posted_date": "2026-06-17",
       "first_seen": "2026-05-23"
     },
     {
@@ -222,21 +282,6 @@
       "closes_date": "2026-06-21",
       "posted_date": "2026-05-29",
       "first_seen": "2026-05-30"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2221118",
-      "title": "Teacher Librarian- Part Time .8 FTE Strawberry Point School 2026-2027",
-      "agency": "Mill Valley School District",
-      "location": "Mill Valley, Marin County",
-      "county": "Marin",
-      "url": "https://www.edjoin.org/Home/JobPosting/2221118",
-      "salary": "",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-11-11",
-      "closes_date": "2026-11-11",
-      "posted_date": "2026-05-11",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

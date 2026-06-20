@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T15:03:52+00:00",
+  "generated_at": "2026-06-20T14:46:50+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -105,6 +105,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-06-19",
+      "closes_date": "2027-06-19",
+      "posted_date": "2026-06-19",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
       "agency": "Mt. Diablo Unified",
@@ -132,21 +147,6 @@
       "closes_date": "2026-07-18",
       "posted_date": "2026-06-17",
       "first_seen": "2026-06-18"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-17",
-      "closes_date": "2027-06-17",
-      "posted_date": "2026-06-17",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -192,21 +192,6 @@
       "closes_date": "2026-06-26",
       "posted_date": "2026-06-12",
       "first_seen": "2026-06-13"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2233539",
-      "title": "Library Media Center Technician - .775 FTE (31 hours per week)",
-      "agency": "San Carlos School District",
-      "location": "San Carlos, San Mateo County",
-      "county": "San Mateo",
-      "url": "https://www.edjoin.org/Home/JobPosting/2233539",
-      "salary": "Plus, health and welfare benefits",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-06-20",
-      "closes_date": "2026-06-20",
-      "posted_date": "2026-06-04",
-      "first_seen": "2026-06-05"
     },
     {
       "source": "edjoin",

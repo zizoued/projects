@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T14:46:50+00:00",
+  "generated_at": "2026-06-21T14:47:21+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -192,21 +192,6 @@
       "closes_date": "2026-06-26",
       "posted_date": "2026-06-12",
       "first_seen": "2026-06-13"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2229939",
-      "title": "Library Aide",
-      "agency": "Bellarmine College Preparatory",
-      "location": "San Jose, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2229939",
-      "salary": "30 - 35 Per Hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-06-21",
-      "closes_date": "2026-06-21",
-      "posted_date": "2026-05-29",
-      "first_seen": "2026-05-30"
     },
     {
       "source": "edjoin",

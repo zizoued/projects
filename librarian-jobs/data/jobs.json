@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T15:02:50+00:00",
+  "generated_at": "2026-06-24T14:57:50+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -98,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/5259195-0/community-librarian",
       "salary": "$139,836.32 - $169,975.52 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-06-16"
@@ -113,9 +113,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-22",
-      "closes_date": "2027-06-22",
-      "posted_date": "2026-06-22",
+      "closes": "Closes 2027-06-23",
+      "closes_date": "2027-06-23",
+      "posted_date": "2026-06-23",
       "first_seen": "2026-05-23"
     },
     {
@@ -143,8 +143,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2239701",
       "salary": "MHCEA Salary Range 41",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-07-18",
-      "closes_date": "2026-07-18",
+      "closes": "Closes 2026-07-10",
+      "closes_date": "2026-07-10",
       "posted_date": "2026-06-17",
       "first_seen": "2026-06-18"
     },

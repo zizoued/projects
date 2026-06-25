@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T14:57:50+00:00",
+  "generated_at": "2026-06-25T15:00:14+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -74,6 +74,21 @@
       "first_seen": "2026-05-23"
     },
     {
+      "source": "calopps",
+      "source_id": "calopps-20105239",
+      "title": "Library Aide",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20105239",
+      "salary": "$19.84",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-05-23"
+    },
+    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5350159-0",
       "title": "Librarian I - FT and PT",
@@ -83,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/5350159-0/librarian-i-ft-and-pt",
       "salary": "$43.90 - $56.02 Hourly",
       "employment_type": "Full-time / Part-time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-27"
@@ -96,9 +111,9 @@
       "location": "San Jose Metropolitan Area, CA",
       "county": "Santa Clara",
       "url": "https://www.governmentjobs.com/jobs/5259195-0/community-librarian",
-      "salary": "$139,836.32 - $169,975.52 Annually",
+      "salary": "$144,029.60 - $175,073.60 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-06-16"
@@ -113,9 +128,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-06-23",
-      "closes_date": "2027-06-23",
-      "posted_date": "2026-06-23",
+      "closes": "Closes 2027-06-24",
+      "closes_date": "2027-06-24",
+      "posted_date": "2026-06-24",
       "first_seen": "2026-05-23"
     },
     {

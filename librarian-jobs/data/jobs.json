@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T15:00:14+00:00",
+  "generated_at": "2026-06-26T14:54:56+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -98,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/5350159-0/librarian-i-ft-and-pt",
       "salary": "$43.90 - $56.02 Hourly",
       "employment_type": "Full-time / Part-time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-27"
@@ -113,10 +113,25 @@
       "url": "https://www.governmentjobs.com/jobs/5259195-0/community-librarian",
       "salary": "$144,029.60 - $175,073.60 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-06-16"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2242633",
+      "title": "Librarian Teacher - Encinal Jr/Sr. High Grades 6-12 (.80 FTE) 2026/27 SY",
+      "agency": "Alameda Unified School District",
+      "location": "Alameda, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2242633",
+      "salary": "Annual Salary (prorated): $73,154.03 - $131,733.56; MA Stipend $2,414.08",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-07-01",
+      "closes_date": "2026-07-01",
+      "posted_date": "2026-06-25",
+      "first_seen": "2026-06-26"
     },
     {
       "source": "edjoin",

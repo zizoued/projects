@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T14:32:08+00:00",
+  "generated_at": "2026-07-06T15:05:02+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -57,36 +57,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-77222-1",
-      "title": "Library Specialist for Technology",
-      "agency": "Belvedere Tiburon Library",
-      "location": "Belvedere, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/77222-1/library-specialist-for-technology",
-      "salary": "$32.36 - $39.85 Hourly",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5362928-0",
-      "title": "Community Library Specialist",
-      "agency": "County of Marin",
-      "location": "Multiple Locations, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/5362928-0/community-library-specialist",
-      "salary": "$35.97 - $42.43 Hourly",
-      "employment_type": "Part Time, Regular",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-06-13"
     },
     {
       "source": "edjoin",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:02:06+00:00",
+  "generated_at": "2026-07-10T14:55:11+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,21 +13,6 @@
     "library media specialist"
   ],
   "jobs": [
-    {
-      "source": "calopps",
-      "source_id": "calopps-20743219",
-      "title": "On-Call Librarian I/II",
-      "agency": "City of Burlingame",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/burlingame/job-20743219",
-      "salary": "$36.95",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-27"
-    },
     {
       "source": "calopps",
       "source_id": "calopps-20756141",
@@ -60,21 +45,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20703166",
-      "title": "Library Security Attendant (Hourly)",
-      "agency": "City of Mountain View",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/mountain-view/job-20703166",
-      "salary": "$23.89",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20105239",
       "title": "Library Aide",
       "agency": "City of Daly City",
@@ -87,6 +57,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-05-23"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20153996",
+      "title": "Library Page",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20153996",
+      "salary": "$17.67",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-07-10"
     },
     {
       "source": "governmentjobs",
@@ -134,66 +119,6 @@
       "first_seen": "2026-07-07"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-77222-1",
-      "title": "Library Specialist for Technology",
-      "agency": "Belvedere Tiburon Library",
-      "location": "Belvedere, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/77222-1/library-specialist-for-technology",
-      "salary": "$32.36 - $39.85 Hourly",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5362928-0",
-      "title": "Community Library Specialist",
-      "agency": "County of Marin",
-      "location": "Multiple Locations, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/5362928-0/community-library-specialist",
-      "salary": "$35.97 - $42.43 Hourly",
-      "employment_type": "Part Time, Regular",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-06-13"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5392804-0",
-      "title": "Library Assistant",
-      "agency": "City of Alameda",
-      "location": "Main Library), CA",
-      "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5392804-0/library-assistant",
-      "salary": "$51,461.28 - $72,390.24 Annually",
-      "employment_type": "Full Time",
-      "closes": "Closes in 6 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-07"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5375239-0",
-      "title": "Library Technician II",
-      "agency": "Peralta Community College District (CA)",
-      "location": "Berkeley City College - Berkeley, CA",
-      "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5375239-0/library-technician-ii",
-      "salary": "$51,463.56 - $64,988.76 Annually",
-      "employment_type": "Full Time Classified",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-06-18"
-    },
-    {
       "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
@@ -203,9 +128,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-07-08",
-      "closes_date": "2027-07-08",
-      "posted_date": "2026-07-08",
+      "closes": "Closes 2027-07-09",
+      "closes_date": "2027-07-09",
+      "posted_date": "2026-07-09",
       "first_seen": "2026-05-23"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T14:55:11+00:00",
+  "generated_at": "2026-07-11T14:27:54+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -37,6 +37,21 @@
       "county": "San Mateo",
       "url": "https://www.calopps.org/redwood-city/job-20707292",
       "salary": "$23.69",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20703166",
+      "title": "Library Security Attendant (Hourly)",
+      "agency": "City of Mountain View",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/mountain-view/job-20703166",
+      "salary": "$23.89",
       "employment_type": "Part-Time",
       "closes": "",
       "closes_date": null,
@@ -120,6 +135,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-07-24",
+      "closes_date": "2026-07-24",
+      "posted_date": "2026-07-10",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
       "agency": "Oakland Unified School District",
@@ -131,21 +161,6 @@
       "closes": "Closes 2027-07-09",
       "closes_date": "2027-07-09",
       "posted_date": "2026-07-09",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-07-17",
-      "closes_date": "2026-07-17",
-      "posted_date": "2026-07-02",
       "first_seen": "2026-05-23"
     },
     {

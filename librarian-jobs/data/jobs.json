@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T14:59:26+00:00",
+  "generated_at": "2026-07-14T14:35:05+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -98,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/5394279-0/senior-librarian",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 3 weeks",
+      "closes": "Closes in 2 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-09"
@@ -120,6 +120,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-5408762-0",
+      "title": "City Librarian",
+      "agency": "City of Santa Clara",
+      "location": "Santa Clara CA 95051, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5408762-0/city-librarian",
+      "salary": "$270,247.20 - $349,725.84 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 3 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-07-14"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-146121-1",
       "title": "Senior Assistant Librarian - Business",
       "agency": "San Jose State University",
@@ -135,6 +150,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-07-13",
+      "closes_date": "2027-07-13",
+      "posted_date": "2026-07-13",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
       "agency": "Mt. Diablo Unified",
@@ -146,21 +176,6 @@
       "closes": "Closes 2026-07-24",
       "closes_date": "2026-07-24",
       "posted_date": "2026-07-10",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-07-09",
-      "closes_date": "2027-07-09",
-      "posted_date": "2026-07-09",
       "first_seen": "2026-05-23"
     },
     {

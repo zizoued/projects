@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-02T14:31:27+00:00",
+  "generated_at": "2026-08-03T15:01:42+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -105,6 +105,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20105239",
+      "title": "Library Aide",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20105239",
+      "salary": "$19.84",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-07-30"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20153996",
       "title": "Library Page",
       "agency": "City of Daly City",
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5373425-0/librarian-iii",
       "salary": "$94,674.64 - $115,077.61 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-15"
@@ -143,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5394279-0/senior-librarian",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 15 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-09"
@@ -173,7 +188,7 @@
       "url": "https://www.governmentjobs.com/jobs/5408762-0/city-librarian",
       "salary": "$270,247.20 - $349,725.84 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-14"

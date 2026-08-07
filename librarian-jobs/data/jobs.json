@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T14:48:38+00:00",
+  "generated_at": "2026-08-07T14:48:24+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -104,6 +104,21 @@
       "first_seen": "2026-07-30"
     },
     {
+      "source": "calopps",
+      "source_id": "calopps-20153996",
+      "title": "Library Page",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20153996",
+      "salary": "$17.67",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-07-10"
+    },
+    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5407960-0",
       "title": "Librarian I",
@@ -113,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/5407960-0/librarian-i",
       "salary": "$68,552.64 - $96,445.44 Annually",
       "employment_type": "Full Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-04"
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5373425-0/librarian-iii",
       "salary": "$94,674.64 - $115,077.61 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 16 hours",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-15"
@@ -143,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/146272-1/stem-librarian-temporary-sr-asst-librarian",
       "salary": "$7,127.00 - $7,576.00 Monthly",
       "employment_type": "",
-      "closes": "Closes in 1 month",
+      "closes": "Closes in 4 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-08"
@@ -158,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5408762-0/city-librarian",
       "salary": "$270,247.20 - $349,725.84 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-14"
@@ -173,10 +188,40 @@
       "url": "https://www.governmentjobs.com/jobs/146121-1/senior-assistant-librarian-business",
       "salary": "$90,000.00 - $91,000.00 Annually",
       "employment_type": "",
-      "closes": "Closes in 1 month",
+      "closes": "Closes in 4 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-07"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-08-06",
+      "closes_date": "2027-08-06",
+      "posted_date": "2026-08-06",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-08-14",
+      "closes_date": "2026-08-14",
+      "posted_date": "2026-08-05",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -195,36 +240,6 @@
     },
     {
       "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-08-04",
-      "closes_date": "2027-08-04",
-      "posted_date": "2026-08-04",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-08-14",
-      "closes_date": "2026-08-14",
-      "posted_date": "2026-07-31",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
       "source_id": "edjoin-2204026",
       "title": "District Librarian (.5 FTE)",
       "agency": "Evergreen Elementary School District",
@@ -237,21 +252,6 @@
       "closes_date": "2026-09-30",
       "posted_date": "2026-03-30",
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2257469",
-      "title": "Library Media Specialist - Indian Valley Elementary Walnut Creek School District/San Francisco Bay Area",
-      "agency": "Walnut Creek School District",
-      "location": "Walnut Creek, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2257469",
-      "salary": "Range 26 on the CSEA Classified Schedule starting at $27.25/hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-08-07",
-      "closes_date": "2026-08-07",
-      "posted_date": "2026-07-30",
-      "first_seen": "2026-07-31"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:48:24+00:00",
+  "generated_at": "2026-08-08T14:26:03+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,21 +13,6 @@
     "library media specialist"
   ],
   "jobs": [
-    {
-      "source": "calopps",
-      "source_id": "calopps-20760253",
-      "title": "Library Services Manager (Open & Promotional)",
-      "agency": "San Mateo County",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/san-mateo-county/job-20760253",
-      "salary": "$147,472.00",
-      "employment_type": "",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-18"
-    },
     {
       "source": "calopps",
       "source_id": "calopps-20762851",
@@ -60,18 +45,18 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20761973",
-      "title": "Library Aide I",
-      "agency": "City of Burlingame",
+      "source_id": "calopps-20756141",
+      "title": "Library Program Manager II",
+      "agency": "City of South San Francisco",
       "location": "San Francisco/Peninsula",
       "county": "San Mateo",
-      "url": "https://www.calopps.org/burlingame/job-20761973",
-      "salary": "$18.60",
-      "employment_type": "Part-Time",
+      "url": "https://www.calopps.org/south-san-francisco/job-20756141",
+      "salary": "$131,539.00",
+      "employment_type": "Full-Time",
       "closes": "",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-07-25"
+      "first_seen": "2026-07-09"
     },
     {
       "source": "calopps",
@@ -128,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/5407960-0/librarian-i",
       "salary": "$68,552.64 - $96,445.44 Annually",
       "employment_type": "Full Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-04"
@@ -173,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5408762-0/city-librarian",
       "salary": "$270,247.20 - $349,725.84 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-14"
@@ -188,10 +173,25 @@
       "url": "https://www.governmentjobs.com/jobs/146121-1/senior-assistant-librarian-business",
       "salary": "$90,000.00 - $91,000.00 Annually",
       "employment_type": "",
-      "closes": "Closes in 4 weeks",
+      "closes": "Closes in 3 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-07"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-08-21",
+      "closes_date": "2026-08-21",
+      "posted_date": "2026-08-07",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -206,21 +206,6 @@
       "closes": "Closes 2027-08-06",
       "closes_date": "2027-08-06",
       "posted_date": "2026-08-06",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-08-14",
-      "closes_date": "2026-08-14",
-      "posted_date": "2026-08-05",
       "first_seen": "2026-05-23"
     },
     {

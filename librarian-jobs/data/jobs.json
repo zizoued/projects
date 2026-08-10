@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:28:39+00:00",
+  "generated_at": "2026-08-10T14:53:13+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -113,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/5407960-0/librarian-i",
       "salary": "$68,552.64 - $96,445.44 Annually",
       "employment_type": "Full Time",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 9 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-04"
@@ -147,21 +147,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-08"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5408762-0",
-      "title": "City Librarian",
-      "agency": "City of Santa Clara",
-      "location": "Santa Clara CA 95051, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5408762-0/city-librarian",
-      "salary": "$270,247.20 - $349,725.84 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 4 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-14"
     },
     {
       "source": "governmentjobs",

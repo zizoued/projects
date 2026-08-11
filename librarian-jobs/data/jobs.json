@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T14:53:13+00:00",
+  "generated_at": "2026-08-11T14:52:55+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,6 +13,21 @@
     "library media specialist"
   ],
   "jobs": [
+    {
+      "source": "calopps",
+      "source_id": "calopps-20767222",
+      "title": "Library Assistant I/II (Part-Time)",
+      "agency": "City of San Mateo",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/san-mateo/job-20767222",
+      "salary": "$28.76",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-11"
+    },
     {
       "source": "calopps",
       "source_id": "calopps-20762851",
@@ -105,21 +120,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5407960-0",
-      "title": "Librarian I",
-      "agency": "City of Alameda",
-      "location": "Main Library), CA",
-      "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5407960-0/librarian-i",
-      "salary": "$68,552.64 - $96,445.44 Annually",
-      "employment_type": "Full Time",
-      "closes": "Closes in 9 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-04"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5373425-0",
       "title": "Librarian III",
       "agency": "County of Contra Costa",
@@ -165,6 +165,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-08-10",
+      "closes_date": "2027-08-10",
+      "posted_date": "2026-08-10",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
       "agency": "Mt. Diablo Unified",
@@ -176,21 +191,6 @@
       "closes": "Closes 2026-08-21",
       "closes_date": "2026-08-21",
       "posted_date": "2026-08-07",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-08-06",
-      "closes_date": "2027-08-06",
-      "posted_date": "2026-08-06",
       "first_seen": "2026-05-23"
     },
     {

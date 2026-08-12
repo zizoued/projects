@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T14:52:55+00:00",
+  "generated_at": "2026-08-12T14:51:56+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -165,6 +165,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2262686",
+      "title": "Instructional Assistant, Library Support (0.3 FTE) - Egan Jr. High",
+      "agency": "Los Altos Elementary School District",
+      "location": "Los Altos, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2262686",
+      "salary": "$20.79 - $29.80 Per Hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-08-20",
+      "closes_date": "2026-08-20",
+      "posted_date": "2026-08-12",
+      "first_seen": "2026-08-12"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
       "agency": "Oakland Unified School District",
@@ -173,10 +188,25 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-08-10",
-      "closes_date": "2027-08-10",
-      "posted_date": "2026-08-10",
+      "closes": "Closes 2027-08-11",
+      "closes_date": "2027-08-11",
+      "posted_date": "2026-08-11",
       "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2262678",
+      "title": "Instructional Assistant, Library Support (0.3 FTE)",
+      "agency": "Los Altos Elementary School District",
+      "location": "Los Altos, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2262678",
+      "salary": "$20.79 - $29.80 Per Hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-08-19",
+      "closes_date": "2026-08-19",
+      "posted_date": "2026-08-11",
+      "first_seen": "2026-08-12"
     },
     {
       "source": "edjoin",

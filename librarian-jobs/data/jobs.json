@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T14:51:56+00:00",
+  "generated_at": "2026-08-13T14:52:09+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,6 +13,21 @@
     "library media specialist"
   ],
   "jobs": [
+    {
+      "source": "calopps",
+      "source_id": "calopps-20767719",
+      "title": "Librarian I",
+      "agency": "City of Menlo Park",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/menlo-park/job-20767719",
+      "salary": "$82,337.00",
+      "employment_type": "Full-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-13"
+    },
     {
       "source": "calopps",
       "source_id": "calopps-20767222",
@@ -60,21 +75,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20756141",
-      "title": "Library Program Manager II",
-      "agency": "City of South San Francisco",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/south-san-francisco/job-20756141",
-      "salary": "$131,539.00",
-      "employment_type": "Full-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-09"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20703166",
       "title": "Library Security Attendant (Hourly)",
       "agency": "City of Mountain View",
@@ -117,6 +117,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-10"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-148164-1",
+      "title": "Librarian I (20767719)",
+      "agency": "City of Menlo Park",
+      "location": "Menlo Park, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/148164-1/librarian-i-20767719",
+      "salary": "$82,337.00 - $100,082.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 2 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-13"
     },
     {
       "source": "governmentjobs",
@@ -180,6 +195,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2242633",
+      "title": "Librarian Teacher - Encinal Jr/Sr. High Grades 6-12 (.80 FTE) 2026/27 SY-Seniority",
+      "agency": "Alameda Unified School District",
+      "location": "Alameda, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2242633",
+      "salary": "Annual Salary (prorated): $73,154.03 - $131,733.56; MA Stipend $2,414.08",
+      "employment_type": "Part Time",
+      "closes": "Closes 2027-02-12",
+      "closes_date": "2027-02-12",
+      "posted_date": "2026-08-12",
+      "first_seen": "2026-06-26"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
       "agency": "Oakland Unified School District",
@@ -188,9 +218,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-08-11",
-      "closes_date": "2027-08-11",
-      "posted_date": "2026-08-11",
+      "closes": "Closes 2027-08-12",
+      "closes_date": "2027-08-12",
+      "posted_date": "2026-08-12",
       "first_seen": "2026-05-23"
     },
     {
@@ -222,21 +252,6 @@
       "closes_date": "2026-08-21",
       "posted_date": "2026-08-07",
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2242633",
-      "title": "Librarian Teacher - Encinal Jr/Sr. High Grades 6-12 (.80 FTE) 2026/27 SY-REOPENED",
-      "agency": "Alameda Unified School District",
-      "location": "Alameda, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2242633",
-      "salary": "Annual Salary (prorated): $73,154.03 - $131,733.56; MA Stipend $2,414.08",
-      "employment_type": "Part Time",
-      "closes": "Closes 2027-02-04",
-      "closes_date": "2027-02-04",
-      "posted_date": "2026-08-04",
-      "first_seen": "2026-06-26"
     },
     {
       "source": "edjoin",

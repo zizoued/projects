@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T14:21:27+00:00",
+  "generated_at": "2026-08-18T14:27:02+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -119,19 +119,19 @@
       "first_seen": "2026-07-30"
     },
     {
-      "source": "calopps",
-      "source_id": "calopps-20153996",
-      "title": "Library Page",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20153996",
-      "salary": "$17.67",
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5435913-0",
+      "title": "Librarian I (Part Time)",
+      "agency": "City of Hayward",
+      "location": "Hayward, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5435913-0/librarian-i-part-time",
+      "salary": "$91,312.00 - $95,867.20 Annually",
       "employment_type": "Part-Time",
-      "closes": "",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-07-10"
+      "first_seen": "2026-08-18"
     },
     {
       "source": "governmentjobs",
@@ -158,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5373425-0/librarian-iii",
       "salary": "$94,674.64 - $115,077.61 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-15"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T19:47:47+00:00",
+  "generated_at": "2026-09-01T17:31:57+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -30,21 +30,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20770087",
-      "title": "Librarian I (Part-Time)",
-      "agency": "City of Hayward",
-      "location": "East Bay",
-      "county": "Alameda",
-      "url": "https://www.calopps.org/hayward/job-20770087",
-      "salary": "$43.90",
-      "employment_type": "",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-20"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20762851",
       "title": "Library Associate #26C-09",
       "agency": "City of Redwood City",
@@ -57,21 +42,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-28"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20770569",
-      "title": "As-Needed Temporary Employee (Library Technology Consultant)",
-      "agency": "City of Santa Clara",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/santa-clara/job-20770569",
-      "salary": "$33.27",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
     },
     {
       "source": "calopps",
@@ -120,21 +90,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5435913-0",
-      "title": "Librarian I (Part Time)",
-      "agency": "City of Hayward",
-      "location": "Hayward, CA",
-      "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5435913-0/librarian-i-part-time",
-      "salary": "$91,312.00 - $95,867.20 Annually",
-      "employment_type": "Part-Time",
-      "closes": "Closes in 11 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-18"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5373425-0",
       "title": "Librarian III",
       "agency": "County of Contra Costa",
@@ -143,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/5373425-0/librarian-iii",
       "salary": "$94,674.64 - $115,077.61 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-15"
@@ -188,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/146272-1/stem-librarian-temporary-sr-asst-librarian",
       "salary": "$7,127.00 - $7,576.00 Monthly",
       "employment_type": "",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-08"
@@ -203,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/146121-1/senior-assistant-librarian-business",
       "salary": "$90,000.00 - $91,000.00 Annually",
       "employment_type": "",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-07"
@@ -225,21 +180,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5449947-0",
-      "title": "Communication Specialist - San Mateo County Libraries (Open & Promotional)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/5449947-0/communication-specialist-san-mateo-county-libraries-open-promotional",
-      "salary": "$117,228.80 - $146,556.80 Annually",
-      "employment_type": "Regular",
-      "closes": "Closes in 3 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5447550-0",
       "title": "Senior Community Program Specialist - San Mateo County Libraries (Open and Promotional)",
       "agency": "County of San Mateo",
@@ -255,6 +195,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-5449947-0",
+      "title": "Communication Specialist - San Mateo County Libraries (Open & Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5449947-0/communication-specialist-san-mateo-county-libraries-open-promotional",
+      "salary": "$117,228.80 - $146,556.80 Annually",
+      "employment_type": "Regular",
+      "closes": "Closes in 2 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-22"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-5455585-0",
       "title": "Senior Library Assistant",
       "agency": "City of San Leandro",
@@ -263,7 +218,7 @@
       "url": "https://www.governmentjobs.com/jobs/5455585-0/senior-library-assistant",
       "salary": "$35.11 - $42.68 Hourly",
       "employment_type": "Part-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-22"
@@ -278,7 +233,7 @@
       "url": "https://www.governmentjobs.com/jobs/147976-1/part-time-library-assistant-i-ii",
       "salary": "$28.76 - $37.70 Hourly",
       "employment_type": "Part-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-15"
@@ -293,7 +248,7 @@
       "url": "https://www.governmentjobs.com/jobs/5449591-0/library-project-manager-management-analyst-departmental-promotional-only",
       "salary": "$121,264.00 - $151,611.20 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-22"
@@ -308,7 +263,7 @@
       "url": "https://www.governmentjobs.com/jobs/5465957-0/casual-library-page-part-time",
       "salary": "$45,021.00 - $57,460.00 Annually",
       "employment_type": "Casual",
-      "closes": "Closes in 4 weeks",
+      "closes": "Closes in 3 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-29"
@@ -338,9 +293,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-08-28",
-      "closes_date": "2027-08-28",
-      "posted_date": "2026-08-28",
+      "closes": "Closes 2027-08-31",
+      "closes_date": "2027-08-31",
+      "posted_date": "2026-08-31",
       "first_seen": "2026-05-23"
     },
     {

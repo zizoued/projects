@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T16:27:57+00:00",
+  "generated_at": "2026-09-06T16:38:57+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -113,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/148309-1/senior-librarian",
       "salary": "$8,720.00 - $10,599.00 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-17"
@@ -128,25 +128,10 @@
       "url": "https://www.governmentjobs.com/jobs/5447902-0/senior-librarian-bilingual-language-skills-preferred-open-promotional",
       "salary": "$107,744.00 - $134,700.80 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-27"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-146272-1",
-      "title": "STEM Librarian - Temporary Sr. Asst Librarian",
-      "agency": "San Jose State University",
-      "location": "San Jose, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/146272-1/stem-librarian-temporary-sr-asst-librarian",
-      "salary": "$7,127.00 - $7,576.00 Monthly",
-      "employment_type": "",
-      "closes": "Closes in 15 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-08"
     },
     {
       "source": "governmentjobs",
@@ -173,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5447550-0/senior-community-program-specialist-san-mateo-county-libraries-open-and-promot",
       "salary": "$105,393.60 - $131,664.00 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-27"
@@ -188,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/147976-1/part-time-library-assistant-i-ii",
       "salary": "$28.76 - $37.70 Hourly",
       "employment_type": "Part-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-15"

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T17:42:19+00:00",
+  "generated_at": "2026-09-09T17:28:21+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -113,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/148309-1/senior-librarian",
       "salary": "$8,720.00 - $10,599.00 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-17"
@@ -128,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/5447902-0/senior-librarian-bilingual-language-skills-preferred-open-promotional",
       "salary": "$107,744.00 - $134,700.80 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-27"
@@ -158,10 +158,25 @@
       "url": "https://www.governmentjobs.com/jobs/5447550-0/senior-community-program-specialist-san-mateo-county-libraries-open-and-promot",
       "salary": "$105,393.60 - $131,664.00 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-27"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-09-08",
+      "closes_date": "2027-09-08",
+      "posted_date": "2026-09-08",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -176,21 +191,6 @@
       "closes": "Closes 2026-09-18",
       "closes_date": "2026-09-18",
       "posted_date": "2026-09-04",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-03",
-      "closes_date": "2027-09-03",
-      "posted_date": "2026-09-03",
       "first_seen": "2026-05-23"
     },
     {

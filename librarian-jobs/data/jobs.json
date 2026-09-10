@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T17:28:21+00:00",
+  "generated_at": "2026-09-10T17:26:51+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -42,21 +42,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-28"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20770569",
-      "title": "As-Needed Temporary Employee (Library Technology Consultant)",
-      "agency": "City of Santa Clara",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/santa-clara/job-20770569",
-      "salary": "$33.27",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
     },
     {
       "source": "calopps",
@@ -113,7 +98,7 @@
       "url": "https://www.governmentjobs.com/jobs/148309-1/senior-librarian",
       "salary": "$8,720.00 - $10,599.00 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-17"
@@ -128,7 +113,7 @@
       "url": "https://www.governmentjobs.com/jobs/5447902-0/senior-librarian-bilingual-language-skills-preferred-open-promotional",
       "salary": "$107,744.00 - $134,700.80 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 13 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-27"
@@ -149,21 +134,6 @@
       "first_seen": "2026-08-26"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5447550-0",
-      "title": "Senior Community Program Specialist - San Mateo County Libraries (Open and Promotional)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/5447550-0/senior-community-program-specialist-san-mateo-county-libraries-open-and-promot",
-      "salary": "$105,393.60 - $131,664.00 Annually",
-      "employment_type": "Regular",
-      "closes": "Closes in 1 day",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-27"
-    },
-    {
       "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
@@ -173,9 +143,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-08",
-      "closes_date": "2027-09-08",
-      "posted_date": "2026-09-08",
+      "closes": "Closes 2027-09-09",
+      "closes_date": "2027-09-09",
+      "posted_date": "2026-09-09",
       "first_seen": "2026-05-23"
     },
     {

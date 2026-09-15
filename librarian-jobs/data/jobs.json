@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T18:58:41+00:00",
+  "generated_at": "2026-09-15T17:52:26+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -105,6 +105,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-5482064-0",
+      "title": "Library Media Technician (8-40 hours per week)",
+      "agency": "Hayward Unified School District",
+      "location": "Hayward, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5482064-0/library-media-technician-8-40-hours-per-week",
+      "salary": "$38.56 - $42.59 Hourly",
+      "employment_type": "School Year (180-225 days depending on position)",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-15"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-5443360-0",
       "title": "Library Aide, Part-Time (Continuous)",
       "agency": "City of Oakland",
@@ -117,6 +132,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-12"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2275604",
+      "title": "Library Media Technician, 8 - 40 hours per week",
+      "agency": "Hayward Unified School District",
+      "location": "Hayward, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2275604",
+      "salary": "Five-step salary schedule",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2026-09-29",
+      "closes_date": "2026-09-29",
+      "posted_date": "2026-09-15",
+      "first_seen": "2026-09-15"
     },
     {
       "source": "edjoin",
@@ -143,24 +173,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/1515569",
       "salary": "$ 37,234.40 - $ 49,948.96 Annually",
       "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-10",
-      "closes_date": "2027-09-10",
-      "posted_date": "2026-09-10",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-09-18",
-      "closes_date": "2026-09-18",
-      "posted_date": "2026-09-04",
+      "closes": "Closes 2027-09-14",
+      "closes_date": "2027-09-14",
+      "posted_date": "2026-09-14",
       "first_seen": "2026-05-23"
     },
     {

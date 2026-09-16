@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T17:52:26+00:00",
+  "generated_at": "2026-09-16T17:53:52+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -42,6 +42,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-22"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20703166",
+      "title": "Library Security Attendant (Hourly)",
+      "agency": "City of Mountain View",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/mountain-view/job-20703166",
+      "salary": "$23.89",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-17"
     },
     {
       "source": "calopps",
@@ -150,6 +165,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-09-15",
+      "closes_date": "2027-09-15",
+      "posted_date": "2026-09-15",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2274927",
       "title": "PT Librarian",
       "agency": "Chabot-Las Positas Community College District",
@@ -162,21 +192,6 @@
       "closes_date": "2027-01-14",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-14",
-      "closes_date": "2027-09-14",
-      "posted_date": "2026-09-14",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T17:53:32+00:00",
+  "generated_at": "2026-09-18T17:25:25+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,6 +13,21 @@
     "library media specialist"
   ],
   "jobs": [
+    {
+      "source": "calopps",
+      "source_id": "calopps-20777552",
+      "title": "Librarian I/II Neighborhood Libraries Division #26A-27",
+      "agency": "City of Redwood City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/redwood-city/job-20777552",
+      "salary": "$7,476.89",
+      "employment_type": "Full-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-18"
+    },
     {
       "source": "calopps",
       "source_id": "calopps-20762851",
@@ -90,6 +105,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-149949-1",
+      "title": "Librarian I/II Neighborhood Libraries Division",
+      "agency": "City of Redwood City",
+      "location": "Redwood City, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
+      "salary": "$7,476.89 - $9,999.49 Monthly",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 3 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-18"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-5459802-0",
       "title": "Deputy County Librarian",
       "agency": "County of Santa Clara",
@@ -119,34 +149,19 @@
       "first_seen": "2026-08-26"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5482064-0",
-      "title": "Library Media Technician (8-40 hours per week)",
-      "agency": "Hayward Unified School District",
-      "location": "Hayward, CA",
+      "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
       "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5482064-0/library-media-technician-8-40-hours-per-week",
-      "salary": "$38.56 - $42.59 Hourly",
-      "employment_type": "School Year (180-225 days depending on position)",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-15"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5443360-0",
-      "title": "Library Aide, Part-Time (Continuous)",
-      "agency": "City of Oakland",
-      "location": "Oakland, CA",
-      "county": "Alameda",
-      "url": "https://www.governmentjobs.com/jobs/5443360-0/library-aide-part-time-continuous",
-      "salary": "$43,602.00 - $53,527.50 Annually",
-      "employment_type": "Part Time (include Trainee)",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-12"
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-09-17",
+      "closes_date": "2027-09-17",
+      "posted_date": "2026-09-17",
+      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -177,21 +192,6 @@
       "closes_date": "2026-09-29",
       "posted_date": "2026-09-15",
       "first_seen": "2026-09-15"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-15",
-      "closes_date": "2027-09-15",
-      "posted_date": "2026-09-15",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",

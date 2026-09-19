@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T17:25:25+00:00",
+  "generated_at": "2026-09-19T16:58:43+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -87,21 +87,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-30"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20153996",
-      "title": "Library Page",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20153996",
-      "salary": "$17.67",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-07-10"
     },
     {
       "source": "governmentjobs",
@@ -207,21 +192,6 @@
       "closes_date": "2027-01-14",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2266708",
-      "title": "Library Technician",
-      "agency": "Contra Costa Community College District",
-      "location": "Martinez, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2266708",
-      "salary": "51,120.00 - 62,268.00 Annually",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-09-19",
-      "closes_date": "2026-09-19",
-      "posted_date": "2026-08-20",
-      "first_seen": "2026-08-20"
     },
     {
       "source": "edjoin",

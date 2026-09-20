@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T16:58:43+00:00",
+  "generated_at": "2026-09-20T17:13:41+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -60,6 +60,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20777930",
+      "title": "Deputy Director of Library Services (Open and Promotional)",
+      "agency": "San Mateo County",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/san-mateo-county/job-20777930",
+      "salary": "$179,254.40",
+      "employment_type": "Full-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20703166",
       "title": "Library Security Attendant (Hourly)",
       "agency": "City of Mountain View",
@@ -87,6 +102,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-07-30"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20153996",
+      "title": "Library Page",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20153996",
+      "salary": "$17.67",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
     },
     {
       "source": "governmentjobs",
@@ -132,6 +162,66 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-26"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5482064-0",
+      "title": "Library Media Technician (8-40 hours per week)",
+      "agency": "Hayward Unified School District",
+      "location": "Hayward, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5482064-0/library-media-technician-8-40-hours-per-week",
+      "salary": "$38.56 - $42.59 Hourly",
+      "employment_type": "School Year (180-225 days depending on position)",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-15"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5443360-0",
+      "title": "Library Aide, Part-Time (Continuous)",
+      "agency": "City of Oakland",
+      "location": "Oakland, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5443360-0/library-aide-part-time-continuous",
+      "salary": "$43,602.00 - $53,527.50 Annually",
+      "employment_type": "Part Time (include Trainee)",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-12"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487239-0",
+      "title": "Deputy Director of Library Services (Open and Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
+      "salary": "$179,254.40 - $224,099.20 Annually",
+      "employment_type": "Regular",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5475303-0",
+      "title": "Library Clerk (Multiple Positions)",
+      "agency": "City of Palo Alto",
+      "location": "Palo Alto, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5475303-0/library-clerk-multiple-positions",
+      "salary": "$27.84 - $34.17 Hourly",
+      "employment_type": "SEIU Hourly",
+      "closes": "Closes in 2 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
     },
     {
       "source": "edjoin",

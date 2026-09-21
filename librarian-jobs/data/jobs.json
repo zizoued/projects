@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T17:13:41+00:00",
+  "generated_at": "2026-09-21T19:01:05+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -128,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
       "salary": "$7,476.89 - $9,999.49 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 3 weeks",
+      "closes": "Closes in 2 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"
@@ -222,6 +222,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-20"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2277580",
+      "title": "Substitute - Library Media Specialist",
+      "agency": "Livermore Valley Joint Unified School District",
+      "location": "Livermore, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2277580",
+      "salary": "https://drive.google.com/file/d/1yZVfPrTetCoOPrIcLBJn7M9sKuKDjbe1/view",
+      "employment_type": "Temporary",
+      "closes": "Closes 2027-03-21",
+      "closes_date": "2027-03-21",
+      "posted_date": "2026-09-21",
+      "first_seen": "2026-09-21"
     },
     {
       "source": "edjoin",

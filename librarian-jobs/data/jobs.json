@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T17:52:50+00:00",
+  "generated_at": "2026-09-23T18:09:33+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -135,6 +135,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-5491803-0",
+      "title": "Part Time Librarian (Instructor)",
+      "agency": "Peralta Community College District (CA)",
+      "location": "College of Alameda - Alameda, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5491803-0/part-time-librarian-instructor",
+      "salary": "$75.32 - $125.74 Hourly",
+      "employment_type": "Part Time Faculty",
+      "closes": "Closes in 9 months",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-23"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-5459802-0",
       "title": "Deputy County Librarian",
       "agency": "County of Santa Clara",
@@ -165,6 +180,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-1515569",
+      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
+      "agency": "Oakland Unified School District",
+      "location": "Oakland, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
+      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
+      "employment_type": "Full Time, Part Time",
+      "closes": "Closes 2027-09-22",
+      "closes_date": "2027-09-22",
+      "posted_date": "2026-09-22",
+      "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2277580",
       "title": "Substitute - Library Media Specialist",
       "agency": "Livermore Valley Joint Unified School District",
@@ -192,21 +222,6 @@
       "closes_date": "2026-10-02",
       "posted_date": "2026-09-21",
       "first_seen": "2026-09-22"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-1515569",
-      "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
-      "agency": "Oakland Unified School District",
-      "location": "Oakland, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/1515569",
-      "salary": "$ 37,234.40 - $ 49,948.96 Annually",
-      "employment_type": "Full Time, Part Time",
-      "closes": "Closes 2027-09-17",
-      "closes_date": "2027-09-17",
-      "posted_date": "2026-09-17",
-      "first_seen": "2026-05-23"
     },
     {
       "source": "edjoin",
@@ -255,21 +270,6 @@
     },
     {
       "source": "edjoin",
-      "source_id": "edjoin-2266790",
-      "title": "Teacher Librarian - 1.0 FTE - Berkeley High School - 26-27 SY (Temporary; 9/25/26 - 2/25/27)",
-      "agency": "Berkeley Unified School District",
-      "location": "Berkeley, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2266790",
-      "salary": "Range is for full year; actual pay will be prorated by time in role. Credit for up to 20 years of service for placement in Step 21",
-      "employment_type": "Full Time, Temporary",
-      "closes": "Closes 2027-02-20",
-      "closes_date": "2027-02-20",
-      "posted_date": "2026-08-20",
-      "first_seen": "2026-08-21"
-    },
-    {
-      "source": "edjoin",
       "source_id": "edjoin-2204026",
       "title": "District Librarian (.5 FTE)",
       "agency": "Evergreen Elementary School District",
@@ -282,6 +282,21 @@
       "closes_date": "2026-09-30",
       "posted_date": "2026-03-30",
       "first_seen": "2026-05-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2278136",
+      "title": "Elementary Library Media Specialist (43656/43680) - 25.0 hr/wk (Anticipated work hours: M, Th, F 8:45am - 2:45pm; T 11:15am - 2:45pm; W 8:00am - 1:00pm) - Neil Armstrong Elementary",
+      "agency": "San Ramon Valley Unified School District",
+      "location": "Danville, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2278136",
+      "salary": "$25.98 - $34.41/hr",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-09-29",
+      "closes_date": "2026-09-29",
+      "posted_date": "2026-09-22",
+      "first_seen": "2026-09-23"
     }
   ]
 }

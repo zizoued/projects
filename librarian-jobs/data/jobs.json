@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T19:03:45+00:00",
+  "generated_at": "2026-09-30T18:45:11+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -90,6 +90,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20703166",
+      "title": "Library Security Attendant (Hourly)",
+      "agency": "City of Mountain View",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/mountain-view/job-20703166",
+      "salary": "$23.89",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-17"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20105239",
       "title": "Library Aide",
       "agency": "City of Daly City",
@@ -143,10 +158,25 @@
       "url": "https://www.governmentjobs.com/jobs/5491803-0/part-time-librarian",
       "salary": "$75.32 - $125.74 Hourly",
       "employment_type": "Part Time Faculty",
-      "closes": "Closes in 9 months",
+      "closes": "Closes in 8 months",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-23"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5497600-0",
+      "title": "Senior Librarian (Adult Services) Rinconada",
+      "agency": "City of Palo Alto",
+      "location": "Palo Alto, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
+      "salary": "$103,043.20 - $125,964.80 Annually",
+      "employment_type": "Regular Full-Time",
+      "closes": "Closes in 2 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-30"
     },
     {
       "source": "governmentjobs",
@@ -188,7 +218,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
       "salary": "$179,254.40 - $224,099.20 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-20"
@@ -203,7 +233,7 @@
       "url": "https://www.governmentjobs.com/jobs/5475303-0/library-clerk-multiple-positions",
       "salary": "$27.84 - $34.17 Hourly",
       "employment_type": "SEIU Hourly",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-20"
@@ -222,6 +252,36 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-22"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2280582",
+      "title": "School Library Media Technician at Blue Hills Elementary School #094",
+      "agency": "Cupertino Union School District",
+      "location": "Sunnyvale, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2280582",
+      "salary": "New hires not to exceed $29.78/hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-10-07",
+      "closes_date": "2026-10-07",
+      "posted_date": "2026-09-29",
+      "first_seen": "2026-09-30"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2280686",
+      "title": "Library Media Specialist (2026/2027) 0.850 FTE - #824",
+      "agency": "Livermore Valley Joint Unified School District",
+      "location": "Livermore, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2280686",
+      "salary": "Please refer to salary schedule on our website: www.livermoreschools.org",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-10-06",
+      "closes_date": "2026-10-06",
+      "posted_date": "2026-09-29",
+      "first_seen": "2026-09-30"
     },
     {
       "source": "edjoin",
@@ -282,36 +342,6 @@
       "closes_date": "2027-01-14",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2204026",
-      "title": "District Librarian (.5 FTE)",
-      "agency": "Evergreen Elementary School District",
-      "location": "San Jose, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2204026",
-      "salary": "2026-2027 Salary Schedule will reflect 2.5% increase. Pay dependent on experience; Up to 10 years outside experience given on salary schedule ; +MA Stipend $1200, +Doctorate Stipend $1500",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-09-30",
-      "closes_date": "2026-09-30",
-      "posted_date": "2026-03-30",
-      "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2278136",
-      "title": "Elementary Library Media Specialist (43656/43680) - 25.0 hr/wk (Anticipated work hours: M, Th, F 8:45am - 2:45pm; T 11:15am - 2:45pm; W 8:00am - 1:00pm) - Neil Armstrong Elementary",
-      "agency": "San Ramon Valley Unified School District",
-      "location": "Danville, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2278136",
-      "salary": "$25.98 - $34.41/hr",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-09-29",
-      "closes_date": "2026-09-29",
-      "posted_date": "2026-09-22",
-      "first_seen": "2026-09-23"
     }
   ]
 }

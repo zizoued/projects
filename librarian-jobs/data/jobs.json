@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T18:53:35+00:00",
+  "generated_at": "2026-10-03T17:43:39+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -72,6 +72,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-22"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20703166",
+      "title": "Library Security Attendant (Hourly)",
+      "agency": "City of Mountain View",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/mountain-view/job-20703166",
+      "salary": "$23.89",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-17"
     },
     {
       "source": "calopps",
@@ -180,6 +195,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-10-16",
+      "closes_date": "2026-10-16",
+      "posted_date": "2026-10-02",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-1515569",
       "title": "Library Technician Elementary/Middle/High: Eligibility Pool (2026-27)",
       "agency": "Oakland Unified School District",
@@ -222,21 +252,6 @@
       "closes_date": "2026-10-06",
       "posted_date": "2026-09-29",
       "first_seen": "2026-09-30"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-10-09",
-      "closes_date": "2026-10-09",
-      "posted_date": "2026-09-25",
-      "first_seen": "2026-09-22"
     },
     {
       "source": "edjoin",

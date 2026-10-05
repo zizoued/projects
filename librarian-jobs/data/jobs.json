@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T17:57:13+00:00",
+  "generated_at": "2026-10-05T21:19:52+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -27,6 +27,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"
+    },
+    {
+      "source": "calopps",
+      "source_id": "calopps-20781563",
+      "title": "Library Clerk",
+      "agency": "City of South San Francisco",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/south-san-francisco/job-20781563",
+      "salary": "$22.63",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-05"
     },
     {
       "source": "calopps",
@@ -90,21 +105,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20105239",
-      "title": "Library Aide",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20105239",
-      "salary": "$19.84",
-      "employment_type": "Temporary",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-02"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20153996",
       "title": "Library Page",
       "agency": "City of Daly City",
@@ -128,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
       "salary": "$7,476.89 - $9,999.49 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"

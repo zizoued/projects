@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T21:19:52+00:00",
+  "generated_at": "2026-10-06T19:16:19+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -105,6 +105,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20105239",
+      "title": "Library Aide",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20105239",
+      "salary": "$19.84",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-02"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20153996",
       "title": "Library Page",
       "agency": "City of Daly City",
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
       "salary": "$7,476.89 - $9,999.49 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"
@@ -158,10 +173,25 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487997-0",
+      "title": "Electronic Resources Librarian",
+      "agency": "County of Santa Clara",
+      "location": "San Jose Metropolitan Area, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
+      "salary": "$91,979.68 - $111,346.56 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 2 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-06"
     },
     {
       "source": "governmentjobs",
@@ -192,6 +222,36 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-26"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487239-0",
+      "title": "Deputy Director of Library Services (Open and Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
+      "salary": "$179,254.40 - $224,099.20 Annually",
+      "employment_type": "Regular",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-4843495-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
+      "salary": "$29.99 - $39.56 Hourly",
+      "employment_type": "Extra Help",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-22"
     },
     {
       "source": "edjoin",
@@ -235,21 +295,6 @@
       "employment_type": "Part Time",
       "closes": "Closes 2026-10-07",
       "closes_date": "2026-10-07",
-      "posted_date": "2026-09-29",
-      "first_seen": "2026-09-30"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2280686",
-      "title": "Library Media Specialist (2026/2027) 0.850 FTE - #824",
-      "agency": "Livermore Valley Joint Unified School District",
-      "location": "Livermore, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2280686",
-      "salary": "Please refer to salary schedule on our website: www.livermoreschools.org",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-10-06",
-      "closes_date": "2026-10-06",
       "posted_date": "2026-09-29",
       "first_seen": "2026-09-30"
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T19:16:19+00:00",
+  "generated_at": "2026-10-07T19:41:08+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -143,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
       "salary": "$7,476.89 - $9,999.49 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"
@@ -188,7 +188,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -224,36 +224,6 @@
       "first_seen": "2026-08-26"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5487239-0",
-      "title": "Deputy Director of Library Services (Open and Promotional)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
-      "salary": "$179,254.40 - $224,099.20 Annually",
-      "employment_type": "Regular",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-20"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
-    },
-    {
       "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary @ Districtwide 2026-27 SY #4015",
@@ -282,21 +252,6 @@
       "closes_date": "2027-10-01",
       "posted_date": "2026-10-01",
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2280582",
-      "title": "School Library Media Technician at Blue Hills Elementary School #094",
-      "agency": "Cupertino Union School District",
-      "location": "Sunnyvale, Santa Clara County",
-      "county": "Santa Clara",
-      "url": "https://www.edjoin.org/Home/JobPosting/2280582",
-      "salary": "New hires not to exceed $29.78/hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-10-07",
-      "closes_date": "2026-10-07",
-      "posted_date": "2026-09-29",
-      "first_seen": "2026-09-30"
     },
     {
       "source": "edjoin",

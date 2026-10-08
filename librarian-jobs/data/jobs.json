@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T19:41:08+00:00",
+  "generated_at": "2026-10-08T19:37:35+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -90,21 +90,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20703166",
-      "title": "Library Security Attendant (Hourly)",
-      "agency": "City of Mountain View",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/mountain-view/job-20703166",
-      "salary": "$23.89",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-17"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20105239",
       "title": "Library Aide",
       "agency": "City of Daly City",
@@ -143,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/149949-1/librarian-i-ii-neighborhood-libraries-division",
       "salary": "$7,476.89 - $9,999.49 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-18"

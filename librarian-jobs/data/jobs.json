@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:57:19+00:00",
+  "generated_at": "2026-10-13T20:01:09+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -105,6 +105,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20105239",
+      "title": "Library Aide",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20105239",
+      "salary": "$19.84",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-02"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20153996",
       "title": "Library Page",
       "agency": "City of Daly City",
@@ -158,25 +173,10 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5459802-0",
-      "title": "Deputy County Librarian",
-      "agency": "County of Santa Clara",
-      "location": "Throughout the County of Santa Clara, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5459802-0/deputy-county-librarian",
-      "salary": "$189,051.56 - $242,542.14 Annually",
-      "employment_type": "Executive Management",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-14"
     },
     {
       "source": "governmentjobs",
@@ -192,6 +192,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5459802-0",
+      "title": "Deputy County Librarian",
+      "agency": "County of Santa Clara",
+      "location": "Throughout the County of Santa Clara, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5459802-0/deputy-county-librarian",
+      "salary": "$189,051.56 - $242,542.14 Annually",
+      "employment_type": "Executive Management",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-14"
     },
     {
       "source": "governmentjobs",

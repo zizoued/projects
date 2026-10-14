@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T20:01:09+00:00",
+  "generated_at": "2026-10-14T18:15:41+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -173,25 +173,10 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5487997-0",
-      "title": "Electronic Resources Librarian",
-      "agency": "County of Santa Clara",
-      "location": "San Jose Metropolitan Area, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
-      "salary": "$91,979.68 - $111,346.56 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-06"
     },
     {
       "source": "governmentjobs",
@@ -207,6 +192,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-14"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487997-0",
+      "title": "Electronic Resources Librarian",
+      "agency": "County of Santa Clara",
+      "location": "San Jose Metropolitan Area, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
+      "salary": "$91,979.68 - $111,346.56 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 6 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-06"
     },
     {
       "source": "governmentjobs",
@@ -297,6 +297,21 @@
       "closes_date": "2027-01-14",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2285277",
+      "title": "Elementary Library Media Specialist (43690/43664) - 19 hr/wk (Anticipated work hours: TBD) - Twin Creeks Elementary",
+      "agency": "San Ramon Valley Unified School District",
+      "location": "Danville, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2285277",
+      "salary": "$25.98 - $34.41/hr",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-10-20",
+      "closes_date": "2026-10-20",
+      "posted_date": "2026-10-13",
+      "first_seen": "2026-10-14"
     }
   ]
 }

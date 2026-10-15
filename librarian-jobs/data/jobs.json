@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:15:41+00:00",
+  "generated_at": "2026-10-15T17:57:46+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,6 +13,21 @@
     "library media specialist"
   ],
   "jobs": [
+    {
+      "source": "calopps",
+      "source_id": "calopps-20784821",
+      "title": "Per Diem Library Aide II",
+      "agency": "City of San Mateo",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/san-mateo/job-20784821",
+      "salary": "$20.46",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-15"
+    },
     {
       "source": "calopps",
       "source_id": "calopps-20784155",
@@ -173,10 +188,40 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5517427-0",
+      "title": "Supervising Librarian",
+      "agency": "City of Palo Alto",
+      "location": "Palo Alto, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
+      "salary": "$98,508.80 - $147,763.20 Annually",
+      "employment_type": "Regular Full-Time",
+      "closes": "Closes in 3 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-15"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487997-0",
+      "title": "Electronic Resources Librarian",
+      "agency": "County of Santa Clara",
+      "location": "San Jose Metropolitan Area, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
+      "salary": "$91,979.68 - $111,346.56 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 5 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-06"
     },
     {
       "source": "governmentjobs",
@@ -192,21 +237,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-14"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5487997-0",
-      "title": "Electronic Resources Librarian",
-      "agency": "County of Santa Clara",
-      "location": "San Jose Metropolitan Area, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
-      "salary": "$91,979.68 - $111,346.56 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 6 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-06"
     },
     {
       "source": "governmentjobs",

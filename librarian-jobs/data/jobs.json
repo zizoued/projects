@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T17:57:46+00:00",
+  "generated_at": "2026-10-16T17:46:28+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -188,7 +188,7 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
@@ -218,7 +218,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 2 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -254,6 +254,81 @@
       "first_seen": "2026-08-26"
     },
     {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5514491-0",
+      "title": "Library Assistant I - Temporary",
+      "agency": "County of Marin",
+      "location": "San Rafael, CA",
+      "county": "Marin",
+      "url": "https://www.governmentjobs.com/jobs/5514491-0/library-assistant-i-temporary",
+      "salary": "$32.44 - $38.32 Hourly",
+      "employment_type": "Part Time, Temporary",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5487239-0",
+      "title": "Deputy Director of Library Services (Open and Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
+      "salary": "$179,254.40 - $224,099.20 Annually",
+      "employment_type": "Regular",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5492342-0",
+      "title": "Senior Community Library Manager",
+      "agency": "County of Contra Costa",
+      "location": "Contra Costa County, CA",
+      "county": "Contra Costa",
+      "url": "https://www.governmentjobs.com/jobs/5492342-0/senior-community-library-manager",
+      "salary": "$107,892.40 - $137,783.02 Annually",
+      "employment_type": "Permanent Full-Time",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-4843495-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
+      "salary": "$29.99 - $39.56 Hourly",
+      "employment_type": "Extra Help",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-08-22"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-10-30",
+      "closes_date": "2026-10-30",
+      "posted_date": "2026-10-16",
+      "first_seen": "2026-09-22"
+    },
+    {
       "source": "edjoin",
       "source_id": "edjoin-2284026",
       "title": "Part-Time Librarian Pool",
@@ -267,21 +342,6 @@
       "closes_date": "2027-02-21",
       "posted_date": "2026-10-09",
       "first_seen": "2026-10-09"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-10-23",
-      "closes_date": "2026-10-23",
-      "posted_date": "2026-10-09",
-      "first_seen": "2026-09-22"
     },
     {
       "source": "edjoin",

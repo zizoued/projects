@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T17:46:28+00:00",
+  "generated_at": "2026-10-17T16:47:21+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -188,7 +188,7 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"
@@ -203,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
       "salary": "$98,508.80 - $147,763.20 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 3 weeks",
+      "closes": "Closes in 2 weeks",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-15"
@@ -263,7 +263,7 @@
       "url": "https://www.governmentjobs.com/jobs/5514491-0/library-assistant-i-temporary",
       "salary": "$32.44 - $38.32 Hourly",
       "employment_type": "Part Time, Temporary",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-16"
@@ -297,21 +297,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-16"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
     },
     {
       "source": "edjoin",

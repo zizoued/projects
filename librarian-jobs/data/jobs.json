@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T17:02:41+00:00",
+  "generated_at": "2026-10-19T19:36:33+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -90,21 +90,6 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20770569",
-      "title": "As-Needed Temporary Employee (Library Technology Consultant)",
-      "agency": "City of Santa Clara",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/santa-clara/job-20770569",
-      "salary": "$33.27",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-08-22"
-    },
-    {
-      "source": "calopps",
       "source_id": "calopps-20703166",
       "title": "Library Security Attendant (Hourly)",
       "agency": "City of Mountain View",
@@ -158,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/152028-1/librarian-i-ii-lead-adult-services-division",
       "salary": "$7,476.89 - $10,151.77 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-12"
@@ -188,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5497600-0/senior-librarian-adult-services-rinconada",
       "salary": "$103,043.20 - $125,964.80 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 11 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-30"

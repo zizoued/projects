@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:13:54+00:00",
+  "generated_at": "2026-10-21T18:20:23+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -203,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -224,51 +224,6 @@
       "first_seen": "2026-08-26"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5514491-0",
-      "title": "Library Assistant I - Temporary",
-      "agency": "County of Marin",
-      "location": "San Rafael, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/5514491-0/library-assistant-i-temporary",
-      "salary": "$32.44 - $38.32 Hourly",
-      "employment_type": "Part Time, Temporary",
-      "closes": "Closes in 3 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-16"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5487239-0",
-      "title": "Deputy Director of Library Services (Open and Promotional)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
-      "salary": "$179,254.40 - $224,099.20 Annually",
-      "employment_type": "Regular",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-20"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5492342-0",
-      "title": "Senior Community Library Manager",
-      "agency": "County of Contra Costa",
-      "location": "Contra Costa County, CA",
-      "county": "Contra Costa",
-      "url": "https://www.governmentjobs.com/jobs/5492342-0/senior-community-library-manager",
-      "salary": "$107,892.40 - $137,783.02 Annually",
-      "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 6 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-16"
-    },
-    {
       "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
@@ -282,6 +237,21 @@
       "closes_date": "2026-10-30",
       "posted_date": "2026-10-16",
       "first_seen": "2026-09-22"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2287418",
+      "title": "Library Media Specialist I/Instructional Assistant II",
+      "agency": "San Rafael City Schools",
+      "location": "San Rafael, Marin County",
+      "county": "Marin",
+      "url": "https://www.edjoin.org/Home/JobPosting/2287418",
+      "salary": "$22.85 - $34.71 Per Hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-10-23",
+      "closes_date": "2026-10-23",
+      "posted_date": "2026-10-12",
+      "first_seen": "2026-10-21"
     },
     {
       "source": "edjoin",
@@ -342,21 +312,6 @@
       "closes_date": "2027-01-14",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2285277",
-      "title": "Elementary Library Media Specialist (43690/43664) - 19 hr/wk (Anticipated work hours: TBD) - Twin Creeks Elementary",
-      "agency": "San Ramon Valley Unified School District",
-      "location": "Danville, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2285277",
-      "salary": "$25.98 - $34.41/hr",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-10-20",
-      "closes_date": "2026-10-20",
-      "posted_date": "2026-10-13",
-      "first_seen": "2026-10-14"
     }
   ]
 }

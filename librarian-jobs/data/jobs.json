@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:20:23+00:00",
+  "generated_at": "2026-10-22T18:14:29+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -75,18 +75,18 @@
     },
     {
       "source": "calopps",
-      "source_id": "calopps-20762851",
-      "title": "Library Associate #26C-09",
-      "agency": "City of Redwood City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/redwood-city/job-20762851",
-      "salary": "$26.12",
+      "source_id": "calopps-20770569",
+      "title": "As-Needed Temporary Employee (Library Technology Consultant)",
+      "agency": "City of Santa Clara",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/santa-clara/job-20770569",
+      "salary": "$33.27",
       "employment_type": "Part-Time",
       "closes": "",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-07-28"
+      "first_seen": "2026-08-22"
     },
     {
       "source": "calopps",
@@ -117,21 +117,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-02"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20153996",
-      "title": "Library Page",
-      "agency": "City of Daly City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/daly-city/job-20153996",
-      "salary": "$17.67",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-20"
     },
     {
       "source": "governmentjobs",
@@ -180,18 +165,18 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5459802-0",
-      "title": "Deputy County Librarian",
-      "agency": "County of Santa Clara",
-      "location": "Throughout the County of Santa Clara, CA",
+      "source_id": "governmentjobs-5523477-0",
+      "title": "Casual Librarian I",
+      "agency": "City of Sunnyvale",
+      "location": "Sunnyvale, CA",
       "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5459802-0/deputy-county-librarian",
-      "salary": "$189,051.56 - $242,542.14 Annually",
-      "employment_type": "Executive Management",
+      "url": "https://www.governmentjobs.com/jobs/5523477-0/casual-librarian-i",
+      "salary": "$46.09 - $58.82 Hourly",
+      "employment_type": "Casual",
       "closes": "",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-09-14"
+      "first_seen": "2026-10-22"
     },
     {
       "source": "governmentjobs",
@@ -207,6 +192,21 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5459802-0",
+      "title": "Deputy County Librarian",
+      "agency": "County of Santa Clara",
+      "location": "Throughout the County of Santa Clara, CA",
+      "county": "Santa Clara",
+      "url": "https://www.governmentjobs.com/jobs/5459802-0/deputy-county-librarian",
+      "salary": "$189,051.56 - $242,542.14 Annually",
+      "employment_type": "Executive Management",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-14"
     },
     {
       "source": "governmentjobs",
@@ -235,7 +235,7 @@
       "employment_type": "Part Time",
       "closes": "Closes 2026-10-30",
       "closes_date": "2026-10-30",
-      "posted_date": "2026-10-16",
+      "posted_date": "2026-10-21",
       "first_seen": "2026-09-22"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T18:14:29+00:00",
+  "generated_at": "2026-10-23T18:03:43+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -120,6 +120,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-5517964-0",
+      "title": "Librarian I - Temporary",
+      "agency": "County of Marin",
+      "location": "Multiple Locations, CA",
+      "county": "Marin",
+      "url": "https://www.governmentjobs.com/jobs/5517964-0/librarian-i-temporary",
+      "salary": "$43.41 - $51.73 Hourly",
+      "employment_type": "Schedules Vary, Temporary",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-23"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-152028-1",
       "title": "Librarian I/II/Lead \u2013 Adult Services Division",
       "agency": "City of Redwood City",
@@ -233,10 +248,25 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2188728",
       "salary": "Prorated for days worked",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-10-30",
-      "closes_date": "2026-10-30",
-      "posted_date": "2026-10-21",
+      "closes": "Closes 2026-11-07",
+      "closes_date": "2026-11-07",
+      "posted_date": "2026-10-23",
       "first_seen": "2026-09-22"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2288541",
+      "title": "Teacher Librarian Specialist, 1.0 FTE, Hillview Crest Elementary/District Wide",
+      "agency": "New Haven Unified School District",
+      "location": "Union City, Alameda County",
+      "county": "Alameda",
+      "url": "https://www.edjoin.org/Home/JobPosting/2288541",
+      "salary": "$97,271.80 - $139,087.81 Annually",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-11-20",
+      "closes_date": "2026-11-20",
+      "posted_date": "2026-10-23",
+      "first_seen": "2026-10-23"
     },
     {
       "source": "edjoin",

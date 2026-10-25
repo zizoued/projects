@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T17:08:54+00:00",
+  "generated_at": "2026-10-25T17:21:30+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -143,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517964-0/librarian-i-temporary",
       "salary": "$43.41 - $51.73 Hourly",
       "employment_type": "Schedules Vary, Temporary",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-23"
@@ -278,25 +278,10 @@
       "url": "https://www.governmentjobs.com/jobs/5492342-0/senior-community-library-manager",
       "salary": "$107,892.40 - $137,783.02 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-16"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-24"
     },
     {
       "source": "edjoin",

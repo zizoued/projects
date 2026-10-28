@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T19:09:51+00:00",
+  "generated_at": "2026-10-28T19:14:48+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -104,6 +104,21 @@
       "first_seen": "2026-10-02"
     },
     {
+      "source": "calopps",
+      "source_id": "calopps-20153996",
+      "title": "Library Page",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20153996",
+      "salary": "$17.67",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5517964-0",
       "title": "Librarian I - Temporary",
@@ -113,7 +128,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517964-0/librarian-i-temporary",
       "salary": "$43.41 - $51.73 Hourly",
       "employment_type": "Schedules Vary, Temporary",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-23"
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/152028-1/librarian-i-ii-lead-adult-services-division",
       "salary": "$7,476.89 - $10,151.77 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-12"
@@ -188,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -263,7 +278,7 @@
       "url": "https://www.governmentjobs.com/jobs/5492342-0/senior-community-library-manager",
       "salary": "$107,892.40 - $137,783.02 Annually",
       "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-16"

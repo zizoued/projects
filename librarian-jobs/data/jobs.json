@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T19:22:23+00:00",
+  "generated_at": "2026-10-30T18:57:08+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -119,6 +119,21 @@
       "first_seen": "2026-10-02"
     },
     {
+      "source": "calopps",
+      "source_id": "calopps-20153996",
+      "title": "Library Page",
+      "agency": "City of Daly City",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/daly-city/job-20153996",
+      "salary": "$17.67",
+      "employment_type": "Part-Time",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-09-20"
+    },
+    {
       "source": "governmentjobs",
       "source_id": "governmentjobs-5517964-0",
       "title": "Librarian I - Temporary",
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517964-0/librarian-i-temporary",
       "salary": "$43.41 - $51.73 Hourly",
       "employment_type": "Schedules Vary, Temporary",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 12 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-23"
@@ -143,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/152028-1/librarian-i-ii-lead-adult-services-division",
       "salary": "$7,476.89 - $10,151.77 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-12"
@@ -203,7 +218,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -237,81 +252,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-26"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5508861-0",
-      "title": "Library Aide (Part-Time)",
-      "agency": "City of Richmond (CA)",
-      "location": "CA 94804, CA",
-      "county": "Contra Costa",
-      "url": "https://www.governmentjobs.com/jobs/5508861-0/library-aide-part-time",
-      "salary": "$22.85 - $25.22 Hourly",
-      "employment_type": "Part-time Hourly",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5487239-0",
-      "title": "Deputy Director of Library Services (Open and Promotional)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/5487239-0/deputy-director-of-library-services-open-and-promotional",
-      "salary": "$179,254.40 - $224,099.20 Annually",
-      "employment_type": "Regular",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-20"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-152881-1",
-      "title": "Library and Community Services Supervisor",
-      "agency": "City of Menlo Park",
-      "location": "Menlo Park, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
-      "salary": "$108,986.00 - $132,473.00 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-29"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5492342-0",
-      "title": "Senior Community Library Manager",
-      "agency": "County of Contra Costa",
-      "location": "Contra Costa County, CA",
-      "county": "Contra Costa",
-      "url": "https://www.governmentjobs.com/jobs/5492342-0/senior-community-library-manager",
-      "salary": "$107,892.40 - $137,783.02 Annually",
-      "employment_type": "Permanent Full-Time",
-      "closes": "Closes in 4 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-16"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-24"
     },
     {
       "source": "edjoin",

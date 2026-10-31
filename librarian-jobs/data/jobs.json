@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:57:08+00:00",
+  "generated_at": "2026-10-31T18:06:39+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -135,21 +135,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5517964-0",
-      "title": "Librarian I - Temporary",
-      "agency": "County of Marin",
-      "location": "Multiple Locations, CA",
-      "county": "Marin",
-      "url": "https://www.governmentjobs.com/jobs/5517964-0/librarian-i-temporary",
-      "salary": "$43.41 - $51.73 Hourly",
-      "employment_type": "Schedules Vary, Temporary",
-      "closes": "Closes in 12 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-23"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-152028-1",
       "title": "Librarian I/II/Lead \u2013 Adult Services Division",
       "agency": "City of Redwood City",
@@ -158,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/152028-1/librarian-i-ii-lead-adult-services-division",
       "salary": "$7,476.89 - $10,151.77 Monthly",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-12"
@@ -173,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5491803-0/part-time-librarian",
       "salary": "$75.32 - $125.74 Hourly",
       "employment_type": "Part Time Faculty",
-      "closes": "Closes in 8 months",
+      "closes": "Closes in 7 months",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-09-23"
@@ -188,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
       "salary": "$98,508.80 - $147,763.20 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-15"
@@ -218,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -263,9 +248,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2188728",
       "salary": "Prorated for days worked",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-11-07",
-      "closes_date": "2026-11-07",
-      "posted_date": "2026-10-23",
+      "closes": "Closes 2026-11-14",
+      "closes_date": "2026-11-14",
+      "posted_date": "2026-10-30",
       "first_seen": "2026-09-22"
     },
     {

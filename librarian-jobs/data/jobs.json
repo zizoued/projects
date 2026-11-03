@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T22:33:16+00:00",
+  "generated_at": "2026-11-03T20:23:13+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -143,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
       "salary": "$98,508.80 - $147,763.20 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-15"
@@ -173,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5487997-0/electronic-resources-librarian",
       "salary": "$91,979.68 - $111,346.56 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 11 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-06"
@@ -210,6 +210,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2291661",
+      "title": "Librarian (Outreach and Student Engagement)",
+      "agency": "Contra Costa Community College District",
+      "location": "Martinez, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2291661",
+      "salary": "68,136 - 119,640 Annually",
+      "employment_type": "Full Time",
+      "closes": "Closes 2026-12-15",
+      "closes_date": "2026-12-15",
+      "posted_date": "2026-11-03",
+      "first_seen": "2026-11-03"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
       "agency": "Mt. Diablo Unified",
@@ -237,6 +252,21 @@
       "closes_date": "2026-11-20",
       "posted_date": "2026-10-23",
       "first_seen": "2026-10-23"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2287418",
+      "title": "Library Media Specialist I/Instructional Assistant II",
+      "agency": "San Rafael City Schools",
+      "location": "San Rafael, Marin County",
+      "county": "Marin",
+      "url": "https://www.edjoin.org/Home/JobPosting/2287418",
+      "salary": "$22.85 - $34.71 Per Hour",
+      "employment_type": "Part Time",
+      "closes": "Closes 2027-04-12",
+      "closes_date": "2027-04-12",
+      "posted_date": "2026-10-12",
+      "first_seen": "2026-10-21"
     },
     {
       "source": "edjoin",

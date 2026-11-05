@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T20:38:17+00:00",
+  "generated_at": "2026-11-05T20:54:18+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -143,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
       "salary": "$98,508.80 - $147,763.20 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-15"
@@ -203,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5508861-0/library-aide-part-time",
       "salary": "$22.85 - $25.22 Hourly",
       "employment_type": "Part-time Hourly",
-      "closes": "Closes in 5 days",
+      "closes": "Closes in 4 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-27"
@@ -218,7 +218,7 @@
       "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
       "salary": "$108,986.00 - $132,473.00 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-29"
@@ -240,6 +240,21 @@
     },
     {
       "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-11-14",
+      "closes_date": "2026-11-14",
+      "posted_date": "2026-11-05",
+      "first_seen": "2026-09-22"
+    },
+    {
+      "source": "edjoin",
       "source_id": "edjoin-2291661",
       "title": "Librarian (Outreach and Student Engagement)",
       "agency": "Contra Costa Community College District",
@@ -252,21 +267,6 @@
       "closes_date": "2026-12-15",
       "posted_date": "2026-11-03",
       "first_seen": "2026-11-03"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-11-14",
-      "closes_date": "2026-11-14",
-      "posted_date": "2026-10-30",
-      "first_seen": "2026-09-22"
     },
     {
       "source": "edjoin",

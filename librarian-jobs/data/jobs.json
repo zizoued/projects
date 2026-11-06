@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T20:54:18+00:00",
+  "generated_at": "2026-11-06T20:12:40+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -143,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
       "salary": "$98,508.80 - $147,763.20 Annually",
       "employment_type": "Regular Full-Time",
-      "closes": "Closes in 1 day",
+      "closes": "Closes in 11 hours",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-15"
@@ -194,51 +194,6 @@
       "first_seen": "2026-08-26"
     },
     {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-5508861-0",
-      "title": "Library Aide (Part-Time)",
-      "agency": "City of Richmond (CA)",
-      "location": "CA 94804, CA",
-      "county": "Contra Costa",
-      "url": "https://www.governmentjobs.com/jobs/5508861-0/library-aide-part-time",
-      "salary": "$22.85 - $25.22 Hourly",
-      "employment_type": "Part-time Hourly",
-      "closes": "Closes in 4 days",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-27"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-152881-1",
-      "title": "Library and Community Services Supervisor",
-      "agency": "City of Menlo Park",
-      "location": "Menlo Park, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
-      "salary": "$108,986.00 - $132,473.00 Annually",
-      "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-29"
-    },
-    {
-      "source": "governmentjobs",
-      "source_id": "governmentjobs-4843495-0",
-      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
-      "agency": "County of San Mateo",
-      "location": "County of San Mateo, CA",
-      "county": "San Mateo",
-      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
-      "salary": "$29.99 - $39.56 Hourly",
-      "employment_type": "Extra Help",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-24"
-    },
-    {
       "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
@@ -248,9 +203,9 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2188728",
       "salary": "Prorated for days worked",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-11-14",
-      "closes_date": "2026-11-14",
-      "posted_date": "2026-11-05",
+      "closes": "Closes 2026-11-21",
+      "closes_date": "2026-11-21",
+      "posted_date": "2026-11-06",
       "first_seen": "2026-09-22"
     },
     {
@@ -267,21 +222,6 @@
       "closes_date": "2026-12-15",
       "posted_date": "2026-11-03",
       "first_seen": "2026-11-03"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2288541",
-      "title": "Teacher Librarian Specialist, 1.0 FTE, Hillview Crest Elementary/District Wide",
-      "agency": "New Haven Unified School District",
-      "location": "Union City, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2288541",
-      "salary": "$97,271.80 - $139,087.81 Annually",
-      "employment_type": "Full Time",
-      "closes": "Closes 2026-11-20",
-      "closes_date": "2026-11-20",
-      "posted_date": "2026-10-23",
-      "first_seen": "2026-10-23"
     },
     {
       "source": "edjoin",

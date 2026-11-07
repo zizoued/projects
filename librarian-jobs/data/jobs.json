@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T20:12:40+00:00",
+  "generated_at": "2026-11-07T18:25:52+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -135,21 +135,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5517427-0",
-      "title": "Supervising Librarian",
-      "agency": "City of Palo Alto",
-      "location": "Palo Alto, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5517427-0/supervising-librarian",
-      "salary": "$98,508.80 - $147,763.20 Annually",
-      "employment_type": "Regular Full-Time",
-      "closes": "Closes in 11 hours",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-15"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5523477-0",
       "title": "Casual Librarian I",
       "agency": "City of Sunnyvale",
@@ -192,6 +177,36 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-08-26"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5508861-0",
+      "title": "Library Aide (Part-Time)",
+      "agency": "City of Richmond (CA)",
+      "location": "CA 94804, CA",
+      "county": "Contra Costa",
+      "url": "https://www.governmentjobs.com/jobs/5508861-0/library-aide-part-time",
+      "salary": "$22.85 - $25.22 Hourly",
+      "employment_type": "Part-time Hourly",
+      "closes": "Closes in 2 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-27"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-152881-1",
+      "title": "Library and Community Services Supervisor",
+      "agency": "City of Menlo Park",
+      "location": "Menlo Park, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
+      "salary": "$108,986.00 - $132,473.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-29"
     },
     {
       "source": "edjoin",

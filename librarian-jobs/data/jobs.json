@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T23:15:25+00:00",
+  "generated_at": "2026-11-10T20:40:27+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,21 +13,6 @@
     "library media specialist"
   ],
   "jobs": [
-    {
-      "source": "calopps",
-      "source_id": "calopps-20780514",
-      "title": "Library Activity Leader- Youth Services & Community Engagement #26C-11",
-      "agency": "City of Redwood City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/redwood-city/job-20780514",
-      "salary": "$23.69",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-09-28"
-    },
     {
       "source": "calopps",
       "source_id": "calopps-20788459",
@@ -179,6 +164,36 @@
       "first_seen": "2026-08-26"
     },
     {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5534623-0",
+      "title": "Library Specialist II",
+      "agency": "City of Berkeley",
+      "location": "Berkeley, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5534623-0/library-specialist-ii",
+      "salary": "$78,100.05 - $93,814.03 Annually",
+      "employment_type": "Career",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-10"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-152881-1",
+      "title": "Library and Community Services Supervisor",
+      "agency": "City of Menlo Park",
+      "location": "Menlo Park, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
+      "salary": "$108,986.00 - $132,473.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-29"
+    },
+    {
       "source": "edjoin",
       "source_id": "edjoin-2188728",
       "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
@@ -252,21 +267,6 @@
       "closes_date": "2027-10-01",
       "posted_date": "2026-10-01",
       "first_seen": "2026-05-23"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2277580",
-      "title": "Substitute - Library Media Specialist",
-      "agency": "Livermore Valley Joint Unified School District",
-      "location": "Livermore, Alameda County",
-      "county": "Alameda",
-      "url": "https://www.edjoin.org/Home/JobPosting/2277580",
-      "salary": "https://drive.google.com/file/d/1yZVfPrTetCoOPrIcLBJn7M9sKuKDjbe1/view",
-      "employment_type": "Temporary",
-      "closes": "Closes 2027-03-21",
-      "closes_date": "2027-03-21",
-      "posted_date": "2026-09-21",
-      "first_seen": "2026-09-21"
     },
     {
       "source": "edjoin",

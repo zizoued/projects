@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T21:16:09+00:00",
+  "generated_at": "2026-11-13T20:43:25+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -188,10 +188,25 @@
       "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
       "salary": "$108,986.00 - $132,473.00 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-29"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2294845",
+      "title": "COLLEGE, CAREER AND MEDIA TECHNICIAN",
+      "agency": "Morgan Hill Unified School District",
+      "location": "Morgan Hill, Santa Clara County",
+      "county": "Santa Clara",
+      "url": "https://www.edjoin.org/Home/JobPosting/2294845",
+      "salary": "MHCEA Salary Range 41",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-12-03",
+      "closes_date": "2026-12-03",
+      "posted_date": "2026-11-11",
+      "first_seen": "2026-11-13"
     },
     {
       "source": "edjoin",
@@ -203,8 +218,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2188728",
       "salary": "Prorated for days worked",
       "employment_type": "Part Time",
-      "closes": "Closes 2026-11-21",
-      "closes_date": "2026-11-21",
+      "closes": "Closes 2026-11-20",
+      "closes_date": "2026-11-20",
       "posted_date": "2026-11-06",
       "first_seen": "2026-09-22"
     },
@@ -218,8 +233,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2291661",
       "salary": "68,136 - 119,640 Annually",
       "employment_type": "Full Time",
-      "closes": "Closes 2026-12-15",
-      "closes_date": "2026-12-15",
+      "closes": "Closes 2026-12-14",
+      "closes_date": "2026-12-14",
       "posted_date": "2026-11-03",
       "first_seen": "2026-11-03"
     },
@@ -248,8 +263,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2284026",
       "salary": "78.48 - 105.19 Per Hour",
       "employment_type": "Part Time",
-      "closes": "Closes 2027-02-21",
-      "closes_date": "2027-02-21",
+      "closes": "Closes 2027-02-20",
+      "closes_date": "2027-02-20",
       "posted_date": "2026-10-09",
       "first_seen": "2026-10-09"
     },
@@ -278,8 +293,8 @@
       "url": "https://www.edjoin.org/Home/JobPosting/2274927",
       "salary": "2,253.10 - 2,521.46 Stipend",
       "employment_type": "Part Time",
-      "closes": "Closes 2027-01-14",
-      "closes_date": "2027-01-14",
+      "closes": "Closes 2027-01-13",
+      "closes_date": "2027-01-13",
       "posted_date": "2026-09-14",
       "first_seen": "2026-09-14"
     }

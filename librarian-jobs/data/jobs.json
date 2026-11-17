@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T23:09:40+00:00",
+  "generated_at": "2026-11-17T21:58:39+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -173,7 +173,7 @@
       "url": "https://www.governmentjobs.com/jobs/5534623-0/library-specialist-ii",
       "salary": "$78,100.05 - $93,814.03 Annually",
       "employment_type": "Career",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-10"
@@ -188,7 +188,7 @@
       "url": "https://www.governmentjobs.com/jobs/5549592-0/library-services-manager",
       "salary": "$131,184.14 - $158,080.83 Annually",
       "employment_type": "Career",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-16"
@@ -203,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
       "salary": "$108,986.00 - $132,473.00 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 days",
+      "closes": "Closes in 1 day",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-29"
@@ -233,7 +233,7 @@
       "url": "https://www.governmentjobs.com/jobs/5532920-0/library-assistant-advanced-level-deep-class",
       "salary": "$74,343.59 - $94,939.80 Annually",
       "employment_type": "Permanent Part-Time",
-      "closes": "Closes in 6 days",
+      "closes": "Closes in 5 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-16"
@@ -282,21 +282,6 @@
       "closes_date": "2026-12-15",
       "posted_date": "2026-11-03",
       "first_seen": "2026-11-03"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2287418",
-      "title": "Library Media Specialist I/Instructional Assistant II",
-      "agency": "San Rafael City Schools",
-      "location": "San Rafael, Marin County",
-      "county": "Marin",
-      "url": "https://www.edjoin.org/Home/JobPosting/2287418",
-      "salary": "$22.85 - $34.71 Per Hour",
-      "employment_type": "Part Time",
-      "closes": "Closes 2027-04-12",
-      "closes_date": "2027-04-12",
-      "posted_date": "2026-10-12",
-      "first_seen": "2026-10-21"
     },
     {
       "source": "edjoin",

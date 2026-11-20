@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T21:56:30+00:00",
+  "generated_at": "2026-11-20T21:39:01+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -13,6 +13,21 @@
     "library media specialist"
   ],
   "jobs": [
+    {
+      "source": "calopps",
+      "source_id": "calopps-20793932",
+      "title": "As-Needed Temporary Employee (Library Assistant)",
+      "agency": "City of Santa Clara",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/santa-clara/job-20793932",
+      "salary": "$33.19",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-20"
+    },
     {
       "source": "calopps",
       "source_id": "calopps-20793367",
@@ -128,7 +143,7 @@
       "url": "https://www.governmentjobs.com/jobs/5552845-0/librarian-i-ii-bilingual-language-skills-preferred-open-and-promotional",
       "salary": "$89,336.00 - $121,763.20 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-19"
@@ -165,21 +180,6 @@
     },
     {
       "source": "governmentjobs",
-      "source_id": "governmentjobs-5459802-0",
-      "title": "Deputy County Librarian",
-      "agency": "County of Santa Clara",
-      "location": "Throughout the County of Santa Clara, CA",
-      "county": "Santa Clara",
-      "url": "https://www.governmentjobs.com/jobs/5459802-0/deputy-county-librarian",
-      "salary": "$189,051.56 - $242,542.14 Annually",
-      "employment_type": "Executive Management",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-11-16"
-    },
-    {
-      "source": "governmentjobs",
       "source_id": "governmentjobs-5453044-0",
       "title": "Librarian - Full-time, Tenure-track",
       "agency": "College of Marin",
@@ -203,7 +203,7 @@
       "url": "https://www.governmentjobs.com/jobs/5534623-0/library-specialist-ii",
       "salary": "$78,100.05 - $93,814.03 Annually",
       "employment_type": "Career",
-      "closes": "Closes in 4 days",
+      "closes": "Closes in 3 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-10"
@@ -248,7 +248,7 @@
       "url": "https://www.governmentjobs.com/jobs/5553279-0/library-assistant-i-ii-bilingual-language-skills-preferred-open-and-promotiona",
       "salary": "$68,452.80 - $90,292.80 Annually",
       "employment_type": "Regular",
-      "closes": "Closes in 2 weeks",
+      "closes": "Closes in 1 week",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-19"
@@ -278,10 +278,25 @@
       "url": "https://www.governmentjobs.com/jobs/5532920-0/library-assistant-advanced-level-deep-class",
       "salary": "$74,343.59 - $94,939.80 Annually",
       "employment_type": "Permanent Part-Time",
-      "closes": "Closes in 3 days",
+      "closes": "Closes in 2 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-16"
+    },
+    {
+      "source": "edjoin",
+      "source_id": "edjoin-2188728",
+      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
+      "agency": "Mt. Diablo Unified",
+      "location": "Concord, Contra Costa County",
+      "county": "Contra Costa",
+      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
+      "salary": "Prorated for days worked",
+      "employment_type": "Part Time",
+      "closes": "Closes 2026-12-05",
+      "closes_date": "2026-12-05",
+      "posted_date": "2026-11-20",
+      "first_seen": "2026-09-22"
     },
     {
       "source": "edjoin",
@@ -297,21 +312,6 @@
       "closes_date": "2026-11-21",
       "posted_date": "2026-11-16",
       "first_seen": "2026-11-18"
-    },
-    {
-      "source": "edjoin",
-      "source_id": "edjoin-2188728",
-      "title": "Teacher, Librarian Elementary (0.2 FTE) @ Districtwide 2026-27 SY #4015",
-      "agency": "Mt. Diablo Unified",
-      "location": "Concord, Contra Costa County",
-      "county": "Contra Costa",
-      "url": "https://www.edjoin.org/Home/JobPosting/2188728",
-      "salary": "Prorated for days worked",
-      "employment_type": "Part Time",
-      "closes": "Closes 2026-11-28",
-      "closes_date": "2026-11-28",
-      "posted_date": "2026-11-13",
-      "first_seen": "2026-09-22"
     },
     {
       "source": "edjoin",

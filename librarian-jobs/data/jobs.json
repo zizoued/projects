@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T01:27:12+00:00",
+  "generated_at": "2026-11-24T23:20:53+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -15,18 +15,18 @@
   "jobs": [
     {
       "source": "calopps",
-      "source_id": "calopps-20793932",
-      "title": "As-Needed Temporary Employee (Library Assistant)",
-      "agency": "City of Santa Clara",
-      "location": "South Bay",
-      "county": "Santa Clara",
-      "url": "https://www.calopps.org/santa-clara/job-20793932",
-      "salary": "$33.19",
-      "employment_type": "Temporary",
+      "source_id": "calopps-20793914",
+      "title": "Librarian I/II",
+      "agency": "City of South San Francisco",
+      "location": "San Francisco/Peninsula",
+      "county": "San Mateo",
+      "url": "https://www.calopps.org/south-san-francisco/job-20793914",
+      "salary": "$87,859.00",
+      "employment_type": "Full-Time",
       "closes": "",
       "closes_date": null,
       "posted_date": null,
-      "first_seen": "2026-11-20"
+      "first_seen": "2026-11-24"
     },
     {
       "source": "calopps",
@@ -45,6 +45,21 @@
     },
     {
       "source": "calopps",
+      "source_id": "calopps-20793932",
+      "title": "As-Needed Temporary Employee (Library Assistant)",
+      "agency": "City of Santa Clara",
+      "location": "South Bay",
+      "county": "Santa Clara",
+      "url": "https://www.calopps.org/santa-clara/job-20793932",
+      "salary": "$33.19",
+      "employment_type": "Temporary",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-20"
+    },
+    {
+      "source": "calopps",
       "source_id": "calopps-20788459",
       "title": "Library and Community Services Supervisor",
       "agency": "City of Menlo Park",
@@ -57,21 +72,6 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-10-29"
-    },
-    {
-      "source": "calopps",
-      "source_id": "calopps-20762851",
-      "title": "Library Associate #26C-09",
-      "agency": "City of Redwood City",
-      "location": "San Francisco/Peninsula",
-      "county": "San Mateo",
-      "url": "https://www.calopps.org/redwood-city/job-20762851",
-      "salary": "$26.12",
-      "employment_type": "Part-Time",
-      "closes": "",
-      "closes_date": null,
-      "posted_date": null,
-      "first_seen": "2026-10-26"
     },
     {
       "source": "calopps",
@@ -135,6 +135,21 @@
     },
     {
       "source": "governmentjobs",
+      "source_id": "governmentjobs-153971-1",
+      "title": "Librarian I/II",
+      "agency": "City of South San Francisco",
+      "location": "South San Francisco, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/153971-1/librarian-i-ii",
+      "salary": "$87,859.00 - $117,520.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 3 weeks",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-24"
+    },
+    {
+      "source": "governmentjobs",
       "source_id": "governmentjobs-5552845-0",
       "title": "Librarian I/II - Bilingual Language Skills Preferred (Open and Promotional)",
       "agency": "County of San Mateo",
@@ -192,6 +207,66 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5549592-0",
+      "title": "Library Services Manager",
+      "agency": "City of Berkeley",
+      "location": "Berkeley, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5549592-0/library-services-manager",
+      "salary": "$131,184.14 - $158,080.83 Annually",
+      "employment_type": "Career",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-152881-1",
+      "title": "Library and Community Services Supervisor",
+      "agency": "City of Menlo Park",
+      "location": "Menlo Park, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
+      "salary": "$108,986.00 - $132,473.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 6 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5553279-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred (Open and Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5553279-0/library-assistant-i-ii-bilingual-language-skills-preferred-open-and-promotiona",
+      "salary": "$68,452.80 - $90,292.80 Annually",
+      "employment_type": "Regular",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-19"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-4843495-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
+      "salary": "$29.99 - $39.56 Hourly",
+      "employment_type": "Extra Help",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-24"
     },
     {
       "source": "edjoin",

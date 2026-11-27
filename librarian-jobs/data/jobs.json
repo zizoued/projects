@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T22:44:55+00:00",
+  "generated_at": "2026-11-27T22:26:52+00:00",
   "counties": [
     "Alameda",
     "Contra Costa",
@@ -158,7 +158,7 @@
       "url": "https://www.governmentjobs.com/jobs/5552845-0/librarian-i-ii-bilingual-language-skills-preferred-open-and-promotional",
       "salary": "$89,336.00 - $121,763.20 Annually",
       "employment_type": "Full-Time",
-      "closes": "Closes in 1 week",
+      "closes": "Closes in 6 days",
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-19"
@@ -207,6 +207,66 @@
       "closes_date": null,
       "posted_date": null,
       "first_seen": "2026-11-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5549592-0",
+      "title": "Library Services Manager",
+      "agency": "City of Berkeley",
+      "location": "Berkeley, CA",
+      "county": "Alameda",
+      "url": "https://www.governmentjobs.com/jobs/5549592-0/library-services-manager",
+      "salary": "$131,184.14 - $158,080.83 Annually",
+      "employment_type": "Career",
+      "closes": "Closes in 1 week",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-16"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-152881-1",
+      "title": "Library and Community Services Supervisor",
+      "agency": "City of Menlo Park",
+      "location": "Menlo Park, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/152881-1/library-and-community-services-supervisor",
+      "salary": "$108,986.00 - $132,473.00 Annually",
+      "employment_type": "Full-Time",
+      "closes": "Closes in 3 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-29"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-5553279-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred (Open and Promotional)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/5553279-0/library-assistant-i-ii-bilingual-language-skills-preferred-open-and-promotiona",
+      "salary": "$68,452.80 - $90,292.80 Annually",
+      "employment_type": "Regular",
+      "closes": "Closes in 6 days",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-11-19"
+    },
+    {
+      "source": "governmentjobs",
+      "source_id": "governmentjobs-4843495-0",
+      "title": "Library Assistant I/II - Bilingual Language Skills Preferred-Bookmobile Driver Services (Extra-Help)",
+      "agency": "County of San Mateo",
+      "location": "County of San Mateo, CA",
+      "county": "San Mateo",
+      "url": "https://www.governmentjobs.com/jobs/4843495-0/library-assistant-i-ii-bilingual-language-skills-preferred-bookmobile-driver-se",
+      "salary": "$29.99 - $39.56 Hourly",
+      "employment_type": "Extra Help",
+      "closes": "",
+      "closes_date": null,
+      "posted_date": null,
+      "first_seen": "2026-10-24"
     },
     {
       "source": "edjoin",
